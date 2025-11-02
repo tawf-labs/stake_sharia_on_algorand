@@ -1,29 +1,30 @@
 import logging
-
 import algokit_utils
 
 logger = logging.getLogger(__name__)
 
-
-# define deployment behaviour based on supplied app spec
 def deploy() -> None:
     from smart_contracts.artifacts.tawf_sharia.tawf_sharia_client import (
         TawfShariaFactory,
     )
 
+    # Connect to Algorand using environment variables
     algorand = algokit_utils.AlgorandClient.from_environment()
     deployer_ = algorand.account.from_environment("DEPLOYER")
 
+    # Prepare a typed app factory for deployment
     factory = algorand.client.get_typed_app_factory(
-        TawfShariaFactory, default_sender=deployer_.address
+        TawfShariaFactory,
+        default_sender=deployer_.address
     )
 
+    # Deploy the contract
     app_client, result = factory.deploy(
         on_update=algokit_utils.OnUpdate.AppendApp,
         on_schema_break=algokit_utils.OnSchemaBreak.AppendApp,
-        create_params=factory.send.create.bare(),  # Ubah jadi factory.send.create.bare()
     )
 
+    # Fund the app with 1 Algo if newly created or replaced
     if result.operation_performed in [
         algokit_utils.OperationPerformed.Create,
         algokit_utils.OperationPerformed.Replace,
@@ -37,6 +38,5 @@ def deploy() -> None:
         )
 
     logger.info(
-        f"Deployed {app_client.app_name} ({app_client.app_id}), "
-        f"operation performed: {result.operation_performed}"
+        f"Deployed contract {app_client.app_name} ({app_client.app_id}) successfully."
     )

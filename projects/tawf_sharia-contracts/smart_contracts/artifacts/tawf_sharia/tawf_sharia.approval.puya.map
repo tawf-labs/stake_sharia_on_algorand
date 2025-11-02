@@ -3,7 +3,7 @@
   "sources": [
     "../../tawf_sharia/contract.py"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMQ;AAA4B;;;AAA5B;AACA;AAAwB;;;;;AAAxB;AAHR;;AAAA;AAAA;AAAA;;;;;;AAAA;;;AAAA;;;;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;AAMK;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAKA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAEU;AAAA;;AAAoB;;AAApB;AAAP;AACO;;AAAA;AAAkB;;;;AAAlB;AAAP;AAES;;AACH;;AACK;AAFF;;AAEE;AAAA;;AAEa;;;AAAA;AAAA;AACZ;;;AAAA;AAEpB;;;AACY;;;;;;;;AAAA;;;AAAoD;;;AAApD;AAEY;;AAAA;;AAAA;AACK;AAAyB;;AAAA;AAAzB;AAAA;AAAA;AAAA;AAArB;;AAAA;AAAA;AAEO;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAlBV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAuBa;;AACC;AADD;;AACC;AAAA;;AAEH;;;AAAA;AAAA;;AACR;AAoFkB;;;AAAA;AAAA;AAC1B;;;AAEwB;;AAAA;;;AACK;;AAAA;AAAA;AAAA;AAA8C;;AAAR;AAAtC;AAArB;;AAAA;AAAA;AArFA;;;;;;;;;;AAAA;;;AAAiD;;;AAAjD;AAEqD;AAA9C;;;;;;;;;;;;;;;;;AAAA;AAAA;AAXV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAcA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAEU;;AAAA;AAAA;;AACI;AAAA;AAAA;AAAA;AAAA;;AACX;;AAAA;AAEsB;AAAA;;;AAAA;;AACf;;AAAA;;AAAA;AAAP;AAEQ;AAAA;;;AACA;;AAAA;AAAA;;AAEQ;AAAA;AAAA;AAAA;;AACV;;AAAA;;AAEd;;;AACY;;AAKJ;;;;;;;;;;AAAA;;;AAA8C;;;AAA9C;AAEgD;AAAzC;;;;;;;;;;;;AAAA;AAAA;AAA2D;;;;;;;;;;;;AAA3D;AAvBV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAkB8B;;AAAA;;;AACF;;AAAA;AAAA;AAAA;AAAiD;;AAAA;AAAjD;AAArB;;;;AAUO;AADF;;AACE;AAAA;AACW;;;AAAA;AAAA;AAE9B;;;AACoB;AAAW;;AAP1B;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AASW;;AAAA;;;AACA;;;AAAA;AACG;;AAAA;AAAA;;;;;AAXd;;;AAgBA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAEc;AAAA;AAAA;AACa;AAAA;;;AAAA;AAAA;AACL;;;AAJtB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AASqB;;AAAX;AAFV;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAKA;;;AAEyB;;AAAA;;;AAAA;AAAA;AAC9B;;;AACmB;AAAP;;AAAA;AAES;;;;AAAA;AACH;;AAAA;AAAA;AAEF;;AAAA;AAAsB;AAAA;AAAA;AAAA;AAAtB;AAAqD;AAAA;AAAA;AAAA;AAAwB;;;AAAxB;AAAtD;AAAP;;AAAA;AAEH;;;AAEoB;;AAAA;AACd;;;AAAA;;AAAA;;;AACS;AAAW;;AAAnB;;AAAA;AACQ;;AAAA;AAAA;AACA;;AAAA;AACZ;AAAA;;AAAA",
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMQ;AAA4B;;;AAA5B;AACA;AAAwB;;;;;AAAxB;AAHR;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;;;;;;;;;;AAMK;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAEU;AAAA;;AAAoB;;AAApB;AAAP;AACO;;AAAA;AAAkB;;;;AAAlB;AAAP;AAES;;AACH;;AACK;AAFF;;AAEE;AAAA;;AAEa;;;AAAA;AAAA;AACZ;;;AAAA;AAEpB;;;AACY;;;;;;;;AAAA;;;AAAoD;;;AAApD;AAEY;;AAAA;;AAAA;AACK;AAAyB;;AAAA;AAAzB;AAAA;AAAA;AAAA;AAArB;;AAAA;AAAA;AAEO;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAlBV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAuBa;;AACC;AADD;;AACC;AAAA;;AAEH;;;AAAA;AAAA;;AACR;AAoFkB;;;AAAA;AAAA;AAC1B;;;AAEwB;;AAAA;;;AACK;;AAAA;AAAA;AAAA;AAA8C;;AAAR;AAAtC;AAArB;;AAAA;AAAA;AArFA;;;;;;;;;;AAAA;;;AAAiD;;;AAAjD;AAEqD;AAA9C;;;;;;;;;;;;;;;;;AAAA;AAAA;AAXV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAcA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAEU;;AAAA;AAAA;;AACI;AAAA;AAAA;AAAA;AAAA;;AACX;;AAAA;AAEsB;AAAA;;;AAAA;;AACf;;AAAA;;AAAA;AAAP;AAEQ;AAAA;;;AACA;;AAAA;AAAA;;AAEQ;AAAA;AAAA;AAAA;;AACV;;AAAA;;AAEd;;;AACY;;AAKJ;;;;;;;;;;AAAA;;;AAA8C;;;AAA9C;AAEgD;AAAzC;;;;;;;;;;;;AAAA;AAAA;AAA2D;;;;;;;;;;;;AAA3D;AAvBV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAkB8B;;AAAA;;;AACF;;AAAA;AAAA;AAAA;AAAiD;;AAAA;AAAjD;AAArB;;;;AAUO;AADF;;AACE;AAAA;AACW;;;AAAA;AAAA;AAE9B;;;AACoB;AAAW;;AAP1B;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AASW;;AAAA;;;AACA;;;AAAA;AACG;;AAAA;AAAA;;;;;AAXd;;;AAgBA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAEc;AAAA;AAAA;AACa;AAAA;;;AAAA;AAAA;AACL;;;AAJtB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AASqB;;AAAX;AAFV;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAKA;;;AAEyB;;AAAA;;;AAAA;AAAA;AAC9B;;;AACmB;AAAP;;AAAA;AAES;;;;AAAA;AACH;;AAAA;AAAA;AAEF;;AAAA;AAAsB;AAAA;AAAA;AAAA;AAAtB;AAAqD;AAAA;AAAA;AAAA;AAAwB;;;AAAxB;AAAtD;AAAP;;AAAA;AAEH;;;AAEoB;;AAAA;AACd;;;AAAA;;AAAA;;;AACS;AAAW;;AAAnB;;AAAA;AACQ;;AAAA;AAAA;AACA;;AAAA;AACZ;AAAA;;AAAA",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -80,7 +80,7 @@
     "76": {
       "block": "main_after_if_else@2",
       "stack_in": [],
-      "op": "txn OnCompletion",
+      "op": "txn NumAppArgs",
       "defined_out": [
         "tmp%0#1"
       ],
@@ -89,57 +89,46 @@
       ]
     },
     "78": {
-      "op": "!",
+      "op": "bz main___algopy_default_create@15",
+      "stack_out": []
+    },
+    "81": {
+      "op": "txn OnCompletion",
       "defined_out": [
-        "tmp%1#1"
+        "tmp%2#0"
       ],
       "stack_out": [
-        "tmp%1#1"
+        "tmp%2#0"
       ]
     },
-    "79": {
+    "83": {
+      "op": "!",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "84": {
       "error": "OnCompletion must be NoOp",
       "op": "assert // OnCompletion must be NoOp",
       "stack_out": []
     },
-    "80": {
-      "op": "pushbytes 0xfcadc25c // method \"create_application()string\"",
-      "defined_out": [
-        "Method(create_application()string)"
-      ],
-      "stack_out": [
-        "Method(create_application()string)"
-      ]
-    },
-    "86": {
-      "op": "txna ApplicationArgs 0",
-      "defined_out": [
-        "Method(create_application()string)",
-        "tmp%2#0"
-      ],
-      "stack_out": [
-        "Method(create_application()string)",
-        "tmp%2#0"
-      ]
-    },
-    "89": {
-      "op": "match main_create_application_route@4",
-      "stack_out": []
-    },
-    "93": {
+    "85": {
       "op": "txn ApplicationID",
       "defined_out": [
-        "tmp%3#0"
+        "tmp%4#0"
       ],
       "stack_out": [
-        "tmp%3#0"
+        "tmp%4#0"
       ]
     },
-    "95": {
+    "87": {
       "op": "assert",
       "stack_out": []
     },
-    "96": {
+    "88": {
       "op": "pushbytess 0x0848f029 0x546ee180 0xb554e360 0xce0a1197 0xe7d1c635 0x45f0df76 // method \"lease_validation_rights(pay)string\", method \"claim_ujrah()string\", method \"terminate_lease(uint64)string\", method \"get_my_ijarah_info()(uint64,uint64,uint64)\", method \"check_lessor_info(address)(uint64,uint64)\", method \"total_contract_balance()uint64\"",
       "defined_out": [
         "Method(check_lessor_info(address)(uint64,uint64))",
@@ -158,7 +147,7 @@
         "Method(total_contract_balance()uint64)"
       ]
     },
-    "128": {
+    "120": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
         "Method(check_lessor_info(address)(uint64,uint64))",
@@ -167,7 +156,7 @@
         "Method(lease_validation_rights(pay)string)",
         "Method(terminate_lease(uint64)string)",
         "Method(total_contract_balance()uint64)",
-        "tmp%5#0"
+        "tmp%6#0"
       ],
       "stack_out": [
         "Method(lease_validation_rights(pay)string)",
@@ -176,32 +165,73 @@
         "Method(get_my_ijarah_info()(uint64,uint64,uint64))",
         "Method(check_lessor_info(address)(uint64,uint64))",
         "Method(total_contract_balance()uint64)",
-        "tmp%5#0"
+        "tmp%6#0"
       ]
     },
-    "131": {
+    "123": {
       "op": "match lease_validation_rights claim_ujrah terminate_lease get_my_ijarah_info check_lessor_info total_contract_balance",
       "stack_out": []
     },
-    "145": {
+    "137": {
       "op": "err"
     },
-    "146": {
-      "block": "main_create_application_route@4",
+    "138": {
+      "block": "main___algopy_default_create@15",
       "stack_in": [],
-      "op": "pushbytes 0x151f7c7500305368617269616820496a61726168205374616b696e6720436f6e74726163742043726561746564202833252041505229",
+      "op": "txn OnCompletion",
       "defined_out": [
-        "0x151f7c7500305368617269616820496a61726168205374616b696e6720436f6e74726163742043726561746564202833252041505229"
+        "tmp%7#0"
       ],
       "stack_out": [
-        "0x151f7c7500305368617269616820496a61726168205374616b696e6720436f6e74726163742043726561746564202833252041505229"
+        "tmp%7#0"
       ]
     },
-    "202": {
-      "op": "log",
+    "140": {
+      "op": "!",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "141": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ]
+    },
+    "143": {
+      "op": "!",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0"
+      ]
+    },
+    "144": {
+      "op": "&&",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "145": {
+      "error": "OnCompletion must be NoOp && can only call when creating",
+      "op": "assert // OnCompletion must be NoOp && can only call when creating",
       "stack_out": []
     },
-    "203": {
+    "146": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1"
@@ -210,11 +240,11 @@
         "1"
       ]
     },
-    "204": {
+    "147": {
       "op": "return",
       "stack_out": []
     },
-    "205": {
+    "148": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia.lease_validation_rights[routing]",
       "params": {},
       "block": "lease_validation_rights",
@@ -227,7 +257,7 @@
         "tmp%0#0"
       ]
     },
-    "207": {
+    "150": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -238,7 +268,7 @@
         "1"
       ]
     },
-    "208": {
+    "151": {
       "op": "-",
       "defined_out": [
         "payment#0"
@@ -247,7 +277,7 @@
         "payment#0"
       ]
     },
-    "209": {
+    "152": {
       "op": "dup",
       "defined_out": [
         "payment#0",
@@ -258,7 +288,7 @@
         "payment#0 (copy)"
       ]
     },
-    "210": {
+    "153": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_type%0#0",
@@ -269,7 +299,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "212": {
+    "155": {
       "op": "intc_0 // pay",
       "defined_out": [
         "gtxn_type%0#0",
@@ -282,7 +312,7 @@
         "pay"
       ]
     },
-    "213": {
+    "156": {
       "op": "==",
       "defined_out": [
         "gtxn_type_matches%0#0",
@@ -293,21 +323,21 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "214": {
+    "157": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
         "payment#0"
       ]
     },
-    "215": {
+    "158": {
       "op": "dup",
       "stack_out": [
         "payment#0",
         "payment#0 (copy)"
       ]
     },
-    "216": {
+    "159": {
       "op": "gtxns Receiver",
       "defined_out": [
         "payment#0",
@@ -318,7 +348,7 @@
         "tmp%0#1"
       ]
     },
-    "218": {
+    "161": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "payment#0",
@@ -331,7 +361,7 @@
         "tmp%1#1"
       ]
     },
-    "220": {
+    "163": {
       "op": "==",
       "defined_out": [
         "payment#0",
@@ -342,14 +372,14 @@
         "tmp%2#1"
       ]
     },
-    "221": {
+    "164": {
       "error": "Invalid receiver",
       "op": "assert // Invalid receiver",
       "stack_out": [
         "payment#0"
       ]
     },
-    "222": {
+    "165": {
       "op": "gtxns Amount",
       "defined_out": [
         "tmp%3#1"
@@ -358,7 +388,7 @@
         "tmp%3#1"
       ]
     },
-    "224": {
+    "167": {
       "op": "dup",
       "defined_out": [
         "tmp%3#1"
@@ -368,7 +398,7 @@
         "tmp%3#1"
       ]
     },
-    "225": {
+    "168": {
       "op": "pushint 1000000 // 1000000",
       "defined_out": [
         "1000000",
@@ -380,7 +410,7 @@
         "1000000"
       ]
     },
-    "229": {
+    "172": {
       "op": ">=",
       "defined_out": [
         "tmp%3#1",
@@ -391,23 +421,23 @@
         "tmp%4#0"
       ]
     },
-    "230": {
+    "173": {
       "error": "Min 1 ALGO",
       "op": "assert // Min 1 ALGO",
       "stack_out": [
         "tmp%3#1"
       ]
     },
-    "231": {
+    "174": {
       "op": "txn Sender"
     },
-    "233": {
+    "176": {
       "op": "global LatestTimestamp"
     },
-    "235": {
+    "178": {
       "op": "bytec_1 // 0x696a617261685f"
     },
-    "236": {
+    "179": {
       "op": "txn Sender",
       "defined_out": [
         "0x696a617261685f",
@@ -423,7 +453,7 @@
         "lessor#0"
       ]
     },
-    "238": {
+    "181": {
       "op": "concat",
       "defined_out": [
         "box_name#0",
@@ -438,7 +468,7 @@
         "box_name#0"
       ]
     },
-    "239": {
+    "182": {
       "op": "dupn 2",
       "defined_out": [
         "box_name#0",
@@ -456,7 +486,7 @@
         "box_name#0 (copy)"
       ]
     },
-    "241": {
+    "184": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal",
       "op": "callsub _get_principal",
       "defined_out": [
@@ -477,7 +507,7 @@
         "dummy_data#0"
       ]
     },
-    "244": {
+    "187": {
       "op": "pop",
       "stack_out": [
         "tmp%3#1",
@@ -488,7 +518,7 @@
         "principal#0"
       ]
     },
-    "245": {
+    "188": {
       "op": "swap",
       "defined_out": [
         "box_name#0",
@@ -506,7 +536,7 @@
         "box_name#0"
       ]
     },
-    "246": {
+    "189": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._calculate_ujrah",
       "op": "callsub _calculate_ujrah",
       "defined_out": [
@@ -526,7 +556,7 @@
         "unclaimed#0"
       ]
     },
-    "249": {
+    "192": {
       "op": "dup",
       "defined_out": [
         "box_name#0",
@@ -546,7 +576,7 @@
         "unclaimed#0"
       ]
     },
-    "250": {
+    "193": {
       "op": "bz lease_validation_rights_after_if_else@4",
       "stack_out": [
         "tmp%3#1",
@@ -557,10 +587,10 @@
         "unclaimed#0"
       ]
     },
-    "253": {
+    "196": {
       "op": "itxn_begin"
     },
-    "254": {
+    "197": {
       "op": "dup",
       "stack_out": [
         "tmp%3#1",
@@ -572,7 +602,7 @@
         "unclaimed#0"
       ]
     },
-    "255": {
+    "198": {
       "op": "itxn_field Amount",
       "stack_out": [
         "tmp%3#1",
@@ -583,7 +613,7 @@
         "unclaimed#0"
       ]
     },
-    "257": {
+    "200": {
       "op": "dig 4",
       "stack_out": [
         "tmp%3#1",
@@ -595,7 +625,7 @@
         "lessor#0"
       ]
     },
-    "259": {
+    "202": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "tmp%3#1",
@@ -606,7 +636,7 @@
         "unclaimed#0"
       ]
     },
-    "261": {
+    "204": {
       "op": "intc_0 // pay",
       "stack_out": [
         "tmp%3#1",
@@ -618,7 +648,7 @@
         "pay"
       ]
     },
-    "262": {
+    "205": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "tmp%3#1",
@@ -629,7 +659,7 @@
         "unclaimed#0"
       ]
     },
-    "264": {
+    "207": {
       "op": "intc_1 // 0",
       "stack_out": [
         "tmp%3#1",
@@ -641,7 +671,7 @@
         "0"
       ]
     },
-    "265": {
+    "208": {
       "op": "itxn_field Fee",
       "stack_out": [
         "tmp%3#1",
@@ -652,10 +682,10 @@
         "unclaimed#0"
       ]
     },
-    "267": {
+    "210": {
       "op": "itxn_submit"
     },
-    "268": {
+    "211": {
       "block": "lease_validation_rights_after_if_else@4",
       "stack_in": [
         "tmp%3#1",
@@ -679,7 +709,7 @@
         "principal#0"
       ]
     },
-    "270": {
+    "213": {
       "op": "dig 6",
       "defined_out": [
         "principal#0",
@@ -696,7 +726,7 @@
         "tmp%3#1"
       ]
     },
-    "272": {
+    "215": {
       "op": "+",
       "defined_out": [
         "new_principal#0",
@@ -713,7 +743,7 @@
         "new_principal#0"
       ]
     },
-    "273": {
+    "216": {
       "op": "itob",
       "defined_out": [
         "principal#0",
@@ -730,7 +760,7 @@
         "tmp%14#0"
       ]
     },
-    "274": {
+    "217": {
       "op": "dig 4",
       "defined_out": [
         "now#0",
@@ -749,7 +779,7 @@
         "now#0"
       ]
     },
-    "276": {
+    "219": {
       "op": "itob",
       "defined_out": [
         "now#0",
@@ -769,7 +799,7 @@
         "tmp%15#0"
       ]
     },
-    "277": {
+    "220": {
       "op": "dup2",
       "defined_out": [
         "now#0",
@@ -793,7 +823,7 @@
         "tmp%15#0 (copy)"
       ]
     },
-    "278": {
+    "221": {
       "op": "concat",
       "defined_out": [
         "now#0",
@@ -815,7 +845,7 @@
         "tmp%16#0"
       ]
     },
-    "279": {
+    "222": {
       "op": "swap",
       "stack_out": [
         "tmp%3#1",
@@ -829,7 +859,7 @@
         "tmp%15#0"
       ]
     },
-    "280": {
+    "223": {
       "op": "concat",
       "defined_out": [
         "now#0",
@@ -849,7 +879,7 @@
         "tmp%18#0"
       ]
     },
-    "281": {
+    "224": {
       "op": "dig 4",
       "defined_out": [
         "box_name#0",
@@ -871,7 +901,7 @@
         "box_name#0"
       ]
     },
-    "283": {
+    "226": {
       "op": "swap",
       "stack_out": [
         "tmp%3#1",
@@ -885,7 +915,7 @@
         "tmp%18#0"
       ]
     },
-    "284": {
+    "227": {
       "op": "box_put",
       "stack_out": [
         "tmp%3#1",
@@ -897,7 +927,7 @@
         "tmp%14#0"
       ]
     },
-    "285": {
+    "228": {
       "op": "pushbytes \"Lease started! Amount: \"",
       "defined_out": [
         "\"Lease started! Amount: \"",
@@ -918,7 +948,7 @@
         "\"Lease started! Amount: \""
       ]
     },
-    "310": {
+    "253": {
       "op": "swap",
       "stack_out": [
         "tmp%3#1",
@@ -931,7 +961,7 @@
         "tmp%14#0"
       ]
     },
-    "311": {
+    "254": {
       "op": "concat",
       "defined_out": [
         "box_name#0",
@@ -950,7 +980,7 @@
         "tmp%19#0"
       ]
     },
-    "312": {
+    "255": {
       "op": "dup",
       "defined_out": [
         "box_name#0",
@@ -971,7 +1001,7 @@
         "tmp%19#0 (copy)"
       ]
     },
-    "313": {
+    "256": {
       "op": "len",
       "defined_out": [
         "aggregate%length%0#0",
@@ -992,7 +1022,7 @@
         "aggregate%length%0#0"
       ]
     },
-    "314": {
+    "257": {
       "op": "itob",
       "defined_out": [
         "aggregate%as_bytes%0#0",
@@ -1013,7 +1043,7 @@
         "aggregate%as_bytes%0#0"
       ]
     },
-    "315": {
+    "258": {
       "op": "extract 6 2",
       "defined_out": [
         "aggregate%length_uint16%0#0",
@@ -1034,7 +1064,7 @@
         "aggregate%length_uint16%0#0"
       ]
     },
-    "318": {
+    "261": {
       "op": "swap",
       "stack_out": [
         "tmp%3#1",
@@ -1047,7 +1077,7 @@
         "tmp%19#0"
       ]
     },
-    "319": {
+    "262": {
       "op": "concat",
       "defined_out": [
         "aggregate%encoded_value%0#0",
@@ -1066,7 +1096,7 @@
         "aggregate%encoded_value%0#0"
       ]
     },
-    "320": {
+    "263": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -1087,7 +1117,7 @@
         "0x151f7c75"
       ]
     },
-    "321": {
+    "264": {
       "op": "swap",
       "stack_out": [
         "tmp%3#1",
@@ -1100,7 +1130,7 @@
         "aggregate%encoded_value%0#0"
       ]
     },
-    "322": {
+    "265": {
       "op": "concat",
       "defined_out": [
         "box_name#0",
@@ -1119,7 +1149,7 @@
         "tmp%3#0"
       ]
     },
-    "323": {
+    "266": {
       "op": "log",
       "stack_out": [
         "tmp%3#1",
@@ -1130,7 +1160,7 @@
         "unclaimed#0"
       ]
     },
-    "324": {
+    "267": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1149,7 +1179,7 @@
         "1"
       ]
     },
-    "325": {
+    "268": {
       "op": "return",
       "stack_out": [
         "tmp%3#1",
@@ -1160,17 +1190,17 @@
         "unclaimed#0"
       ]
     },
-    "326": {
+    "269": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia.claim_ujrah[routing]",
       "params": {},
       "block": "claim_ujrah",
       "stack_in": [],
       "op": "txn Sender"
     },
-    "328": {
+    "271": {
       "op": "bytec_1 // 0x696a617261685f"
     },
-    "329": {
+    "272": {
       "op": "txn Sender",
       "defined_out": [
         "0x696a617261685f",
@@ -1182,7 +1212,7 @@
         "claimer#0"
       ]
     },
-    "331": {
+    "274": {
       "op": "concat",
       "defined_out": [
         "box_name#0",
@@ -1193,7 +1223,7 @@
         "box_name#0"
       ]
     },
-    "332": {
+    "275": {
       "op": "dupn 2",
       "defined_out": [
         "box_name#0",
@@ -1207,7 +1237,7 @@
         "box_name#0 (copy)"
       ]
     },
-    "334": {
+    "277": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._calculate_ujrah",
       "op": "callsub _calculate_ujrah",
       "defined_out": [
@@ -1222,7 +1252,7 @@
         "ujrah#0"
       ]
     },
-    "337": {
+    "280": {
       "op": "dup",
       "stack_out": [
         "claimer#0",
@@ -1232,7 +1262,7 @@
         "ujrah#0"
       ]
     },
-    "338": {
+    "281": {
       "op": "cover 2",
       "defined_out": [
         "box_name#0",
@@ -1247,7 +1277,7 @@
         "ujrah#0"
       ]
     },
-    "340": {
+    "283": {
       "error": "No ujrah yet",
       "op": "assert // No ujrah yet",
       "stack_out": [
@@ -1257,7 +1287,7 @@
         "box_name#0"
       ]
     },
-    "341": {
+    "284": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal",
       "op": "callsub _get_principal",
       "defined_out": [
@@ -1275,7 +1305,7 @@
         "data#0"
       ]
     },
-    "344": {
+    "287": {
       "op": "swap",
       "defined_out": [
         "box_name#0",
@@ -1292,7 +1322,7 @@
         "principal#0"
       ]
     },
-    "345": {
+    "288": {
       "op": "dup",
       "defined_out": [
         "box_name#0",
@@ -1310,7 +1340,7 @@
         "principal#0"
       ]
     },
-    "346": {
+    "289": {
       "op": "bz claim_ujrah_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia._update_box_time@4",
       "stack_out": [
         "claimer#0",
@@ -1320,7 +1350,7 @@
         "principal#0"
       ]
     },
-    "349": {
+    "292": {
       "op": "dig 1",
       "stack_out": [
         "claimer#0",
@@ -1331,7 +1361,7 @@
         "data#0"
       ]
     },
-    "351": {
+    "294": {
       "op": "extract 8 8",
       "defined_out": [
         "box_name#0",
@@ -1350,7 +1380,7 @@
         "tmp%3#1"
       ]
     },
-    "354": {
+    "297": {
       "op": "dig 1",
       "stack_out": [
         "claimer#0",
@@ -1362,7 +1392,7 @@
         "principal#0"
       ]
     },
-    "356": {
+    "299": {
       "op": "itob",
       "defined_out": [
         "box_name#0",
@@ -1383,7 +1413,7 @@
         "tmp%5#0"
       ]
     },
-    "357": {
+    "300": {
       "op": "swap",
       "stack_out": [
         "claimer#0",
@@ -1395,7 +1425,7 @@
         "tmp%3#1"
       ]
     },
-    "358": {
+    "301": {
       "op": "concat",
       "defined_out": [
         "box_name#0",
@@ -1414,7 +1444,7 @@
         "tmp%7#0"
       ]
     },
-    "359": {
+    "302": {
       "op": "global LatestTimestamp",
       "defined_out": [
         "box_name#0",
@@ -1435,7 +1465,7 @@
         "tmp%8#0"
       ]
     },
-    "361": {
+    "304": {
       "op": "itob",
       "defined_out": [
         "box_name#0",
@@ -1456,7 +1486,7 @@
         "tmp%9#0"
       ]
     },
-    "362": {
+    "305": {
       "op": "concat",
       "defined_out": [
         "box_name#0",
@@ -1475,7 +1505,7 @@
         "tmp%10#0"
       ]
     },
-    "363": {
+    "306": {
       "op": "dig 4",
       "stack_out": [
         "claimer#0",
@@ -1487,7 +1517,7 @@
         "box_name#0"
       ]
     },
-    "365": {
+    "308": {
       "op": "swap",
       "stack_out": [
         "claimer#0",
@@ -1499,7 +1529,7 @@
         "tmp%10#0"
       ]
     },
-    "366": {
+    "309": {
       "op": "box_put",
       "stack_out": [
         "claimer#0",
@@ -1509,7 +1539,7 @@
         "principal#0"
       ]
     },
-    "367": {
+    "310": {
       "block": "claim_ujrah_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia._update_box_time@4",
       "stack_in": [
         "claimer#0",
@@ -1520,7 +1550,7 @@
       ],
       "op": "itxn_begin"
     },
-    "368": {
+    "311": {
       "op": "dig 2",
       "defined_out": [
         "ujrah#0"
@@ -1534,7 +1564,7 @@
         "ujrah#0"
       ]
     },
-    "370": {
+    "313": {
       "op": "dup",
       "defined_out": [
         "ujrah#0",
@@ -1550,7 +1580,7 @@
         "ujrah#0 (copy)"
       ]
     },
-    "371": {
+    "314": {
       "op": "itxn_field Amount",
       "stack_out": [
         "claimer#0",
@@ -1561,7 +1591,7 @@
         "ujrah#0"
       ]
     },
-    "373": {
+    "316": {
       "op": "dig 5",
       "defined_out": [
         "claimer#0",
@@ -1577,7 +1607,7 @@
         "claimer#0"
       ]
     },
-    "375": {
+    "318": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "claimer#0",
@@ -1588,7 +1618,7 @@
         "ujrah#0"
       ]
     },
-    "377": {
+    "320": {
       "op": "intc_0 // pay",
       "defined_out": [
         "claimer#0",
@@ -1605,7 +1635,7 @@
         "pay"
       ]
     },
-    "378": {
+    "321": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "claimer#0",
@@ -1616,7 +1646,7 @@
         "ujrah#0"
       ]
     },
-    "380": {
+    "323": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -1633,7 +1663,7 @@
         "0"
       ]
     },
-    "381": {
+    "324": {
       "op": "itxn_field Fee",
       "stack_out": [
         "claimer#0",
@@ -1644,10 +1674,10 @@
         "ujrah#0"
       ]
     },
-    "383": {
+    "326": {
       "op": "itxn_submit"
     },
-    "384": {
+    "327": {
       "op": "itob",
       "defined_out": [
         "claimer#0",
@@ -1663,7 +1693,7 @@
         "reinterpret_string%0#0"
       ]
     },
-    "385": {
+    "328": {
       "op": "pushbytes \"Ujrah claimed: \"",
       "defined_out": [
         "\"Ujrah claimed: \"",
@@ -1681,7 +1711,7 @@
         "\"Ujrah claimed: \""
       ]
     },
-    "402": {
+    "345": {
       "op": "swap",
       "stack_out": [
         "claimer#0",
@@ -1693,7 +1723,7 @@
         "reinterpret_string%0#0"
       ]
     },
-    "403": {
+    "346": {
       "op": "concat",
       "defined_out": [
         "claimer#0",
@@ -1709,7 +1739,7 @@
         "tmp%4#0"
       ]
     },
-    "404": {
+    "347": {
       "op": "dup",
       "defined_out": [
         "claimer#0",
@@ -1727,7 +1757,7 @@
         "tmp%4#0 (copy)"
       ]
     },
-    "405": {
+    "348": {
       "op": "len",
       "defined_out": [
         "aggregate%length%0#0",
@@ -1745,7 +1775,7 @@
         "aggregate%length%0#0"
       ]
     },
-    "406": {
+    "349": {
       "op": "itob",
       "defined_out": [
         "aggregate%as_bytes%0#0",
@@ -1763,7 +1793,7 @@
         "aggregate%as_bytes%0#0"
       ]
     },
-    "407": {
+    "350": {
       "op": "extract 6 2",
       "defined_out": [
         "aggregate%length_uint16%0#0",
@@ -1781,7 +1811,7 @@
         "aggregate%length_uint16%0#0"
       ]
     },
-    "410": {
+    "353": {
       "op": "swap",
       "stack_out": [
         "claimer#0",
@@ -1793,7 +1823,7 @@
         "tmp%4#0"
       ]
     },
-    "411": {
+    "354": {
       "op": "concat",
       "defined_out": [
         "aggregate%encoded_value%0#0",
@@ -1809,7 +1839,7 @@
         "aggregate%encoded_value%0#0"
       ]
     },
-    "412": {
+    "355": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -1827,7 +1857,7 @@
         "0x151f7c75"
       ]
     },
-    "413": {
+    "356": {
       "op": "swap",
       "stack_out": [
         "claimer#0",
@@ -1839,7 +1869,7 @@
         "aggregate%encoded_value%0#0"
       ]
     },
-    "414": {
+    "357": {
       "op": "concat",
       "defined_out": [
         "claimer#0",
@@ -1855,7 +1885,7 @@
         "tmp%2#0"
       ]
     },
-    "415": {
+    "358": {
       "op": "log",
       "stack_out": [
         "claimer#0",
@@ -1865,7 +1895,7 @@
         "principal#0"
       ]
     },
-    "416": {
+    "359": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1881,7 +1911,7 @@
         "1"
       ]
     },
-    "417": {
+    "360": {
       "op": "return",
       "stack_out": [
         "claimer#0",
@@ -1891,7 +1921,7 @@
         "principal#0"
       ]
     },
-    "418": {
+    "361": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia.terminate_lease[routing]",
       "params": {},
       "block": "terminate_lease",
@@ -1904,7 +1934,7 @@
         "tmp%0#0"
       ]
     },
-    "421": {
+    "364": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -1915,7 +1945,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "422": {
+    "365": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -1926,7 +1956,7 @@
         "len%0#0"
       ]
     },
-    "423": {
+    "366": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -1939,7 +1969,7 @@
         "8"
       ]
     },
-    "424": {
+    "367": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -1950,14 +1980,14 @@
         "eq%0#0"
       ]
     },
-    "425": {
+    "368": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "426": {
+    "369": {
       "op": "btoi",
       "defined_out": [
         "amount#0"
@@ -1966,10 +1996,10 @@
         "amount#0"
       ]
     },
-    "427": {
+    "370": {
       "op": "txn Sender"
     },
-    "429": {
+    "372": {
       "op": "dup",
       "defined_out": [
         "amount#0",
@@ -1981,7 +2011,7 @@
         "user#0"
       ]
     },
-    "430": {
+    "373": {
       "op": "cover 2",
       "defined_out": [
         "amount#0",
@@ -1993,7 +2023,7 @@
         "user#0"
       ]
     },
-    "432": {
+    "375": {
       "op": "bytec_1 // 0x696a617261685f",
       "defined_out": [
         "0x696a617261685f",
@@ -2007,7 +2037,7 @@
         "0x696a617261685f"
       ]
     },
-    "433": {
+    "376": {
       "op": "swap",
       "stack_out": [
         "user#0",
@@ -2016,7 +2046,7 @@
         "user#0"
       ]
     },
-    "434": {
+    "377": {
       "op": "concat",
       "defined_out": [
         "amount#0",
@@ -2029,7 +2059,7 @@
         "box_name#0"
       ]
     },
-    "435": {
+    "378": {
       "op": "dup",
       "stack_out": [
         "user#0",
@@ -2038,7 +2068,7 @@
         "box_name#0"
       ]
     },
-    "436": {
+    "379": {
       "op": "cover 2",
       "defined_out": [
         "amount#0",
@@ -2052,7 +2082,7 @@
         "box_name#0"
       ]
     },
-    "438": {
+    "381": {
       "op": "dig 1",
       "defined_out": [
         "amount#0",
@@ -2068,7 +2098,7 @@
         "amount#0 (copy)"
       ]
     },
-    "440": {
+    "383": {
       "error": "Invalid amount",
       "op": "assert // Invalid amount",
       "stack_out": [
@@ -2078,7 +2108,7 @@
         "box_name#0"
       ]
     },
-    "441": {
+    "384": {
       "op": "dup",
       "defined_out": [
         "amount#0",
@@ -2094,7 +2124,7 @@
         "box_name#0 (copy)"
       ]
     },
-    "442": {
+    "385": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal",
       "op": "callsub _get_principal",
       "defined_out": [
@@ -2113,7 +2143,7 @@
         "box_data#0"
       ]
     },
-    "445": {
+    "388": {
       "op": "cover 4",
       "defined_out": [
         "amount#0",
@@ -2131,7 +2161,7 @@
         "principal#0"
       ]
     },
-    "447": {
+    "390": {
       "op": "dig 2",
       "stack_out": [
         "user#0",
@@ -2143,7 +2173,7 @@
         "amount#0 (copy)"
       ]
     },
-    "449": {
+    "392": {
       "op": "dig 1",
       "defined_out": [
         "amount#0",
@@ -2165,7 +2195,7 @@
         "principal#0 (copy)"
       ]
     },
-    "451": {
+    "394": {
       "op": "<=",
       "defined_out": [
         "amount#0",
@@ -2185,7 +2215,7 @@
         "tmp%5#0"
       ]
     },
-    "452": {
+    "395": {
       "error": "Exceeds balance",
       "op": "assert // Exceeds balance",
       "stack_out": [
@@ -2197,7 +2227,7 @@
         "principal#0"
       ]
     },
-    "453": {
+    "396": {
       "op": "swap",
       "stack_out": [
         "user#0",
@@ -2208,7 +2238,7 @@
         "box_name#0"
       ]
     },
-    "454": {
+    "397": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._calculate_ujrah",
       "op": "callsub _calculate_ujrah",
       "defined_out": [
@@ -2228,7 +2258,7 @@
         "ujrah#0"
       ]
     },
-    "457": {
+    "400": {
       "op": "dig 2",
       "stack_out": [
         "user#0",
@@ -2240,7 +2270,7 @@
         "amount#0 (copy)"
       ]
     },
-    "459": {
+    "402": {
       "op": "+",
       "defined_out": [
         "amount#0",
@@ -2259,7 +2289,7 @@
         "total#0"
       ]
     },
-    "460": {
+    "403": {
       "op": "cover 3",
       "defined_out": [
         "amount#0",
@@ -2278,7 +2308,7 @@
         "principal#0"
       ]
     },
-    "462": {
+    "405": {
       "op": "swap",
       "stack_out": [
         "user#0",
@@ -2289,7 +2319,7 @@
         "amount#0"
       ]
     },
-    "463": {
+    "406": {
       "op": "-",
       "defined_out": [
         "box_data#0",
@@ -2306,7 +2336,7 @@
         "new_principal#0"
       ]
     },
-    "464": {
+    "407": {
       "op": "dup",
       "stack_out": [
         "user#0",
@@ -2317,7 +2347,7 @@
         "new_principal#0"
       ]
     },
-    "465": {
+    "408": {
       "op": "cover 2",
       "defined_out": [
         "box_data#0",
@@ -2335,7 +2365,7 @@
         "new_principal#0"
       ]
     },
-    "467": {
+    "410": {
       "op": "global LatestTimestamp",
       "defined_out": [
         "box_data#0",
@@ -2355,7 +2385,7 @@
         "now#0"
       ]
     },
-    "469": {
+    "412": {
       "op": "cover 2",
       "stack_out": [
         "user#0",
@@ -2367,7 +2397,7 @@
         "new_principal#0"
       ]
     },
-    "471": {
+    "414": {
       "op": "bnz terminate_lease_else_body@3",
       "stack_out": [
         "user#0",
@@ -2378,7 +2408,7 @@
         "box_name#0"
       ]
     },
-    "474": {
+    "417": {
       "op": "box_del",
       "defined_out": [
         "box_data#0",
@@ -2397,7 +2427,7 @@
         "{box_del}"
       ]
     },
-    "475": {
+    "418": {
       "op": "pop",
       "stack_out": [
         "user#0",
@@ -2407,7 +2437,7 @@
         "now#0"
       ]
     },
-    "476": {
+    "419": {
       "block": "terminate_lease_after_if_else@4",
       "stack_in": [
         "user#0",
@@ -2418,7 +2448,7 @@
       ],
       "op": "itxn_begin"
     },
-    "477": {
+    "420": {
       "op": "dig 2",
       "defined_out": [
         "total#0"
@@ -2432,7 +2462,7 @@
         "total#0"
       ]
     },
-    "479": {
+    "422": {
       "op": "dup",
       "defined_out": [
         "total#0",
@@ -2448,7 +2478,7 @@
         "total#0 (copy)"
       ]
     },
-    "480": {
+    "423": {
       "op": "itxn_field Amount",
       "stack_out": [
         "user#0",
@@ -2459,7 +2489,7 @@
         "total#0"
       ]
     },
-    "482": {
+    "425": {
       "op": "dig 5",
       "defined_out": [
         "total#0",
@@ -2475,7 +2505,7 @@
         "user#0"
       ]
     },
-    "484": {
+    "427": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "user#0",
@@ -2486,7 +2516,7 @@
         "total#0"
       ]
     },
-    "486": {
+    "429": {
       "op": "intc_0 // pay",
       "defined_out": [
         "pay",
@@ -2503,7 +2533,7 @@
         "pay"
       ]
     },
-    "487": {
+    "430": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "user#0",
@@ -2514,7 +2544,7 @@
         "total#0"
       ]
     },
-    "489": {
+    "432": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -2531,7 +2561,7 @@
         "0"
       ]
     },
-    "490": {
+    "433": {
       "op": "itxn_field Fee",
       "stack_out": [
         "user#0",
@@ -2542,10 +2572,10 @@
         "total#0"
       ]
     },
-    "492": {
+    "435": {
       "op": "itxn_submit"
     },
-    "493": {
+    "436": {
       "op": "itob",
       "defined_out": [
         "reinterpret_string%0#0",
@@ -2561,7 +2591,7 @@
         "reinterpret_string%0#0"
       ]
     },
-    "494": {
+    "437": {
       "op": "pushbytes \"Withdrawn \"",
       "defined_out": [
         "\"Withdrawn \"",
@@ -2579,7 +2609,7 @@
         "\"Withdrawn \""
       ]
     },
-    "506": {
+    "449": {
       "op": "swap",
       "stack_out": [
         "user#0",
@@ -2591,7 +2621,7 @@
         "reinterpret_string%0#0"
       ]
     },
-    "507": {
+    "450": {
       "op": "concat",
       "defined_out": [
         "tmp%18#0",
@@ -2607,7 +2637,7 @@
         "tmp%18#0"
       ]
     },
-    "508": {
+    "451": {
       "op": "pushbytes \" microALGO\"",
       "defined_out": [
         "\" microALGO\"",
@@ -2625,7 +2655,7 @@
         "\" microALGO\""
       ]
     },
-    "520": {
+    "463": {
       "op": "concat",
       "defined_out": [
         "tmp%19#0",
@@ -2641,7 +2671,7 @@
         "tmp%19#0"
       ]
     },
-    "521": {
+    "464": {
       "op": "dup",
       "defined_out": [
         "tmp%19#0",
@@ -2659,7 +2689,7 @@
         "tmp%19#0 (copy)"
       ]
     },
-    "522": {
+    "465": {
       "op": "len",
       "defined_out": [
         "aggregate%length%0#0",
@@ -2677,7 +2707,7 @@
         "aggregate%length%0#0"
       ]
     },
-    "523": {
+    "466": {
       "op": "itob",
       "defined_out": [
         "aggregate%as_bytes%0#0",
@@ -2695,7 +2725,7 @@
         "aggregate%as_bytes%0#0"
       ]
     },
-    "524": {
+    "467": {
       "op": "extract 6 2",
       "defined_out": [
         "aggregate%length_uint16%0#0",
@@ -2713,7 +2743,7 @@
         "aggregate%length_uint16%0#0"
       ]
     },
-    "527": {
+    "470": {
       "op": "swap",
       "stack_out": [
         "user#0",
@@ -2725,7 +2755,7 @@
         "tmp%19#0"
       ]
     },
-    "528": {
+    "471": {
       "op": "concat",
       "defined_out": [
         "aggregate%encoded_value%0#0",
@@ -2741,7 +2771,7 @@
         "aggregate%encoded_value%0#0"
       ]
     },
-    "529": {
+    "472": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -2759,7 +2789,7 @@
         "0x151f7c75"
       ]
     },
-    "530": {
+    "473": {
       "op": "swap",
       "stack_out": [
         "user#0",
@@ -2771,7 +2801,7 @@
         "aggregate%encoded_value%0#0"
       ]
     },
-    "531": {
+    "474": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0",
@@ -2787,7 +2817,7 @@
         "tmp%4#0"
       ]
     },
-    "532": {
+    "475": {
       "op": "log",
       "stack_out": [
         "user#0",
@@ -2797,7 +2827,7 @@
         "now#0"
       ]
     },
-    "533": {
+    "476": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -2813,7 +2843,7 @@
         "1"
       ]
     },
-    "534": {
+    "477": {
       "op": "return",
       "stack_out": [
         "user#0",
@@ -2823,7 +2853,7 @@
         "now#0"
       ]
     },
-    "535": {
+    "478": {
       "block": "terminate_lease_else_body@3",
       "stack_in": [
         "user#0",
@@ -2847,7 +2877,7 @@
         "box_data#0"
       ]
     },
-    "537": {
+    "480": {
       "op": "extract 8 8",
       "defined_out": [
         "box_data#0",
@@ -2863,7 +2893,7 @@
         "tmp%11#0"
       ]
     },
-    "540": {
+    "483": {
       "op": "dig 3",
       "defined_out": [
         "box_data#0",
@@ -2881,7 +2911,7 @@
         "new_principal#0"
       ]
     },
-    "542": {
+    "485": {
       "op": "itob",
       "defined_out": [
         "box_data#0",
@@ -2900,7 +2930,7 @@
         "tmp%13#0"
       ]
     },
-    "543": {
+    "486": {
       "op": "swap",
       "stack_out": [
         "user#0",
@@ -2913,7 +2943,7 @@
         "tmp%11#0"
       ]
     },
-    "544": {
+    "487": {
       "op": "concat",
       "defined_out": [
         "box_data#0",
@@ -2930,7 +2960,7 @@
         "tmp%15#0"
       ]
     },
-    "545": {
+    "488": {
       "op": "dig 2",
       "defined_out": [
         "box_data#0",
@@ -2949,7 +2979,7 @@
         "now#0"
       ]
     },
-    "547": {
+    "490": {
       "op": "itob",
       "defined_out": [
         "box_data#0",
@@ -2969,7 +2999,7 @@
         "tmp%16#0"
       ]
     },
-    "548": {
+    "491": {
       "op": "concat",
       "defined_out": [
         "box_data#0",
@@ -2988,7 +3018,7 @@
         "tmp%17#0"
       ]
     },
-    "549": {
+    "492": {
       "op": "box_put",
       "stack_out": [
         "user#0",
@@ -2998,10 +3028,10 @@
         "now#0"
       ]
     },
-    "550": {
+    "493": {
       "op": "b terminate_lease_after_if_else@4"
     },
-    "553": {
+    "496": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia.get_my_ijarah_info[routing]",
       "params": {},
       "block": "get_my_ijarah_info",
@@ -3014,7 +3044,7 @@
         "0x696a617261685f"
       ]
     },
-    "554": {
+    "497": {
       "op": "txn Sender",
       "defined_out": [
         "0x696a617261685f",
@@ -3025,7 +3055,7 @@
         "caller#0"
       ]
     },
-    "556": {
+    "499": {
       "op": "concat",
       "defined_out": [
         "box_name#0"
@@ -3034,7 +3064,7 @@
         "box_name#0"
       ]
     },
-    "557": {
+    "500": {
       "op": "dup",
       "defined_out": [
         "box_name#0"
@@ -3044,7 +3074,7 @@
         "box_name#0"
       ]
     },
-    "558": {
+    "501": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal",
       "op": "callsub _get_principal",
       "defined_out": [
@@ -3058,7 +3088,7 @@
         "box_data#0"
       ]
     },
-    "561": {
+    "504": {
       "op": "swap",
       "defined_out": [
         "box_data#0",
@@ -3071,7 +3101,7 @@
         "principal#0"
       ]
     },
-    "562": {
+    "505": {
       "op": "dup",
       "defined_out": [
         "box_data#0",
@@ -3085,7 +3115,7 @@
         "principal#0"
       ]
     },
-    "563": {
+    "506": {
       "op": "bnz get_my_ijarah_info_after_if_else@3",
       "stack_out": [
         "box_name#0",
@@ -3093,10 +3123,10 @@
         "principal#0"
       ]
     },
-    "566": {
+    "509": {
       "op": "intc_1 // 0"
     },
-    "567": {
+    "510": {
       "op": "dupn 2",
       "defined_out": [
         "box_data#0",
@@ -3115,7 +3145,7 @@
         "tmp%2#0"
       ]
     },
-    "569": {
+    "512": {
       "block": "get_my_ijarah_info_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia.get_my_ijarah_info@4",
       "stack_in": [
         "box_name#0",
@@ -3138,7 +3168,7 @@
         "tmp%0#0"
       ]
     },
-    "571": {
+    "514": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0"
@@ -3152,7 +3182,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "572": {
+    "515": {
       "op": "uncover 2",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -3167,7 +3197,7 @@
         "tmp%1#0"
       ]
     },
-    "574": {
+    "517": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -3182,7 +3212,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "575": {
+    "518": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%1#0"
@@ -3195,7 +3225,7 @@
         "aggregate%head%1#0"
       ]
     },
-    "576": {
+    "519": {
       "op": "swap",
       "defined_out": [
         "aggregate%head%1#0",
@@ -3209,7 +3239,7 @@
         "tmp%2#0"
       ]
     },
-    "577": {
+    "520": {
       "op": "itob",
       "defined_out": [
         "aggregate%head%1#0",
@@ -3223,7 +3253,7 @@
         "aggregate%val_as_bytes%2#0"
       ]
     },
-    "578": {
+    "521": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%2#0"
@@ -3235,7 +3265,7 @@
         "aggregate%head%2#0"
       ]
     },
-    "579": {
+    "522": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -3249,7 +3279,7 @@
         "0x151f7c75"
       ]
     },
-    "580": {
+    "523": {
       "op": "swap",
       "stack_out": [
         "box_name#0",
@@ -3259,7 +3289,7 @@
         "aggregate%head%2#0"
       ]
     },
-    "581": {
+    "524": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0"
@@ -3271,7 +3301,7 @@
         "tmp%4#0"
       ]
     },
-    "582": {
+    "525": {
       "op": "log",
       "stack_out": [
         "box_name#0",
@@ -3279,7 +3309,7 @@
         "principal#0"
       ]
     },
-    "583": {
+    "526": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1"
@@ -3291,7 +3321,7 @@
         "1"
       ]
     },
-    "584": {
+    "527": {
       "op": "return",
       "stack_out": [
         "box_name#0",
@@ -3299,7 +3329,7 @@
         "principal#0"
       ]
     },
-    "585": {
+    "528": {
       "block": "get_my_ijarah_info_after_if_else@3",
       "stack_in": [
         "box_name#0",
@@ -3317,7 +3347,7 @@
         "box_name#0"
       ]
     },
-    "587": {
+    "530": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._calculate_ujrah",
       "op": "callsub _calculate_ujrah",
       "defined_out": [
@@ -3331,7 +3361,7 @@
         "ujrah#0"
       ]
     },
-    "590": {
+    "533": {
       "op": "dig 2",
       "defined_out": [
         "box_data#0",
@@ -3346,7 +3376,7 @@
         "box_data#0"
       ]
     },
-    "592": {
+    "535": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -3363,7 +3393,7 @@
         "8"
       ]
     },
-    "593": {
+    "536": {
       "op": "extract_uint64",
       "defined_out": [
         "box_data#0",
@@ -3379,7 +3409,7 @@
         "start#0"
       ]
     },
-    "594": {
+    "537": {
       "op": "global LatestTimestamp",
       "defined_out": [
         "box_data#0",
@@ -3397,7 +3427,7 @@
         "tmp%8#0"
       ]
     },
-    "596": {
+    "539": {
       "op": "swap",
       "stack_out": [
         "box_name#0",
@@ -3408,7 +3438,7 @@
         "start#0"
       ]
     },
-    "597": {
+    "540": {
       "op": "-",
       "defined_out": [
         "box_data#0",
@@ -3424,7 +3454,7 @@
         "tmp%2#0"
       ]
     },
-    "598": {
+    "541": {
       "op": "dig 2",
       "defined_out": [
         "box_data#0",
@@ -3442,7 +3472,7 @@
         "tmp%0#0"
       ]
     },
-    "600": {
+    "543": {
       "op": "cover 2",
       "stack_out": [
         "box_name#0",
@@ -3453,10 +3483,10 @@
         "tmp%2#0"
       ]
     },
-    "602": {
+    "545": {
       "op": "b get_my_ijarah_info_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia.get_my_ijarah_info@4"
     },
-    "605": {
+    "548": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia.check_lessor_info[routing]",
       "params": {},
       "block": "check_lessor_info",
@@ -3469,7 +3499,7 @@
         "lessor#0"
       ]
     },
-    "608": {
+    "551": {
       "op": "dup",
       "defined_out": [
         "lessor#0",
@@ -3480,7 +3510,7 @@
         "lessor#0 (copy)"
       ]
     },
-    "609": {
+    "552": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -3491,7 +3521,7 @@
         "len%0#0"
       ]
     },
-    "610": {
+    "553": {
       "op": "pushint 32 // 32",
       "defined_out": [
         "32",
@@ -3504,7 +3534,7 @@
         "32"
       ]
     },
-    "612": {
+    "555": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -3515,14 +3545,14 @@
         "eq%0#0"
       ]
     },
-    "613": {
+    "556": {
       "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "stack_out": [
         "lessor#0"
       ]
     },
-    "614": {
+    "557": {
       "op": "bytec_1 // 0x696a617261685f",
       "defined_out": [
         "0x696a617261685f",
@@ -3533,14 +3563,14 @@
         "0x696a617261685f"
       ]
     },
-    "615": {
+    "558": {
       "op": "swap",
       "stack_out": [
         "0x696a617261685f",
         "lessor#0"
       ]
     },
-    "616": {
+    "559": {
       "op": "concat",
       "defined_out": [
         "box_name#0"
@@ -3549,7 +3579,7 @@
         "box_name#0"
       ]
     },
-    "617": {
+    "560": {
       "op": "dup",
       "defined_out": [
         "box_name#0",
@@ -3560,7 +3590,7 @@
         "box_name#0 (copy)"
       ]
     },
-    "618": {
+    "561": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal",
       "op": "callsub _get_principal",
       "defined_out": [
@@ -3574,21 +3604,21 @@
         "dummy_data#0"
       ]
     },
-    "621": {
+    "564": {
       "op": "pop",
       "stack_out": [
         "box_name#0",
         "principal#0"
       ]
     },
-    "622": {
+    "565": {
       "op": "swap",
       "stack_out": [
         "principal#0",
         "box_name#0"
       ]
     },
-    "623": {
+    "566": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._calculate_ujrah",
       "op": "callsub _calculate_ujrah",
       "defined_out": [
@@ -3600,14 +3630,14 @@
         "tmp%3#1"
       ]
     },
-    "626": {
+    "569": {
       "op": "swap",
       "stack_out": [
         "tmp%3#1",
         "principal#0"
       ]
     },
-    "627": {
+    "570": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -3618,14 +3648,14 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "628": {
+    "571": {
       "op": "swap",
       "stack_out": [
         "aggregate%val_as_bytes%0#0",
         "tmp%3#1"
       ]
     },
-    "629": {
+    "572": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -3636,7 +3666,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "630": {
+    "573": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%1#0"
@@ -3645,7 +3675,7 @@
         "aggregate%head%1#0"
       ]
     },
-    "631": {
+    "574": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -3656,14 +3686,14 @@
         "0x151f7c75"
       ]
     },
-    "632": {
+    "575": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%head%1#0"
       ]
     },
-    "633": {
+    "576": {
       "op": "concat",
       "defined_out": [
         "tmp%4#0"
@@ -3672,11 +3702,11 @@
         "tmp%4#0"
       ]
     },
-    "634": {
+    "577": {
       "op": "log",
       "stack_out": []
     },
-    "635": {
+    "578": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1"
@@ -3685,11 +3715,11 @@
         "1"
       ]
     },
-    "636": {
+    "579": {
       "op": "return",
       "stack_out": []
     },
-    "637": {
+    "580": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia.total_contract_balance[routing]",
       "params": {},
       "block": "total_contract_balance",
@@ -3702,7 +3732,7 @@
         "tmp%0#1"
       ]
     },
-    "639": {
+    "582": {
       "op": "balance",
       "defined_out": [
         "tmp%1#1"
@@ -3711,7 +3741,7 @@
         "tmp%1#1"
       ]
     },
-    "640": {
+    "583": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0"
@@ -3720,7 +3750,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "641": {
+    "584": {
       "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -3731,14 +3761,14 @@
         "0x151f7c75"
       ]
     },
-    "642": {
+    "585": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "643": {
+    "586": {
       "op": "concat",
       "defined_out": [
         "tmp%2#0"
@@ -3747,11 +3777,11 @@
         "tmp%2#0"
       ]
     },
-    "644": {
+    "587": {
       "op": "log",
       "stack_out": []
     },
-    "645": {
+    "588": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1"
@@ -3760,11 +3790,11 @@
         "1"
       ]
     },
-    "646": {
+    "589": {
       "op": "return",
       "stack_out": []
     },
-    "647": {
+    "590": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia._calculate_ujrah",
       "params": {
         "box_name#0": "bytes"
@@ -3773,7 +3803,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "650": {
+    "593": {
       "op": "frame_dig -1",
       "defined_out": [
         "box_name#0 (copy)"
@@ -3782,7 +3812,7 @@
         "box_name#0 (copy)"
       ]
     },
-    "652": {
+    "595": {
       "callsub": "smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal",
       "op": "callsub _get_principal",
       "defined_out": [
@@ -3794,7 +3824,7 @@
         "box_data#0"
       ]
     },
-    "655": {
+    "598": {
       "op": "swap",
       "defined_out": [
         "box_data#0",
@@ -3805,7 +3835,7 @@
         "principal#0"
       ]
     },
-    "656": {
+    "599": {
       "op": "dup",
       "defined_out": [
         "box_data#0",
@@ -3817,14 +3847,14 @@
         "principal#0"
       ]
     },
-    "657": {
+    "600": {
       "op": "bnz _calculate_ujrah_after_if_else@2",
       "stack_out": [
         "box_data#0",
         "principal#0"
       ]
     },
-    "660": {
+    "603": {
       "op": "intc_1 // 0",
       "stack_out": [
         "box_data#0",
@@ -3832,14 +3862,14 @@
         "0"
       ]
     },
-    "661": {
+    "604": {
       "op": "frame_bury 0"
     },
-    "663": {
+    "606": {
       "retsub": true,
       "op": "retsub"
     },
-    "664": {
+    "607": {
       "block": "_calculate_ujrah_after_if_else@2",
       "stack_in": [
         "box_data#0",
@@ -3855,7 +3885,7 @@
         "box_data#0"
       ]
     },
-    "666": {
+    "609": {
       "op": "pushint 16 // 16",
       "defined_out": [
         "16",
@@ -3868,7 +3898,7 @@
         "16"
       ]
     },
-    "668": {
+    "611": {
       "op": "extract_uint64",
       "defined_out": [
         "box_data#0",
@@ -3880,7 +3910,7 @@
         "last_claim#0"
       ]
     },
-    "669": {
+    "612": {
       "op": "global LatestTimestamp",
       "defined_out": [
         "box_data#0",
@@ -3894,7 +3924,7 @@
         "tmp%5#0"
       ]
     },
-    "671": {
+    "614": {
       "op": "swap",
       "stack_out": [
         "box_data#0",
@@ -3903,7 +3933,7 @@
         "last_claim#0"
       ]
     },
-    "672": {
+    "615": {
       "op": "-",
       "defined_out": [
         "box_data#0",
@@ -3915,7 +3945,7 @@
         "elapsed#0"
       ]
     },
-    "673": {
+    "616": {
       "op": "frame_dig 1",
       "defined_out": [
         "box_data#0",
@@ -3929,7 +3959,7 @@
         "principal#0"
       ]
     },
-    "675": {
+    "618": {
       "op": "*",
       "defined_out": [
         "box_data#0",
@@ -3942,7 +3972,7 @@
         "tmp%7#0"
       ]
     },
-    "676": {
+    "619": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -3957,7 +3987,7 @@
         "0"
       ]
     },
-    "677": {
+    "620": {
       "op": "bytec_2 // \"ANNUAL_UJRAH_RATE_BP\"",
       "defined_out": [
         "\"ANNUAL_UJRAH_RATE_BP\"",
@@ -3974,7 +4004,7 @@
         "\"ANNUAL_UJRAH_RATE_BP\""
       ]
     },
-    "678": {
+    "621": {
       "op": "app_global_get_ex",
       "defined_out": [
         "box_data#0",
@@ -3991,7 +4021,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "679": {
+    "622": {
       "error": "check self.ANNUAL_UJRAH_RATE_BP exists",
       "op": "assert // check self.ANNUAL_UJRAH_RATE_BP exists",
       "stack_out": [
@@ -4001,7 +4031,7 @@
         "maybe_value%0#0"
       ]
     },
-    "680": {
+    "623": {
       "op": "*",
       "defined_out": [
         "box_data#0",
@@ -4014,7 +4044,7 @@
         "tmp%8#0"
       ]
     },
-    "681": {
+    "624": {
       "op": "intc_1 // 0",
       "stack_out": [
         "box_data#0",
@@ -4023,7 +4053,7 @@
         "0"
       ]
     },
-    "682": {
+    "625": {
       "op": "bytec_3 // \"SECONDS_PER_YEAR\"",
       "defined_out": [
         "\"SECONDS_PER_YEAR\"",
@@ -4040,7 +4070,7 @@
         "\"SECONDS_PER_YEAR\""
       ]
     },
-    "683": {
+    "626": {
       "op": "app_global_get_ex",
       "defined_out": [
         "box_data#0",
@@ -4057,7 +4087,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "684": {
+    "627": {
       "error": "check self.SECONDS_PER_YEAR exists",
       "op": "assert // check self.SECONDS_PER_YEAR exists",
       "stack_out": [
@@ -4067,7 +4097,7 @@
         "maybe_value%1#0"
       ]
     },
-    "685": {
+    "628": {
       "op": "pushint 10000 // 10000",
       "defined_out": [
         "10000",
@@ -4084,7 +4114,7 @@
         "10000"
       ]
     },
-    "688": {
+    "631": {
       "op": "*",
       "defined_out": [
         "box_data#0",
@@ -4099,7 +4129,7 @@
         "tmp%9#0"
       ]
     },
-    "689": {
+    "632": {
       "op": "/",
       "defined_out": [
         "box_data#0",
@@ -4112,14 +4142,14 @@
         "tmp%10#0"
       ]
     },
-    "690": {
+    "633": {
       "op": "frame_bury 0"
     },
-    "692": {
+    "635": {
       "retsub": true,
       "op": "retsub"
     },
-    "693": {
+    "636": {
       "subroutine": "smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal",
       "params": {
         "box_name#0": "bytes"
@@ -4128,7 +4158,7 @@
       "stack_in": [],
       "op": "proto 1 2"
     },
-    "696": {
+    "639": {
       "op": "frame_dig -1",
       "defined_out": [
         "box_name#0 (copy)"
@@ -4137,7 +4167,7 @@
         "box_name#0 (copy)"
       ]
     },
-    "698": {
+    "641": {
       "op": "box_len",
       "defined_out": [
         "exists#0",
@@ -4148,26 +4178,26 @@
         "exists#0"
       ]
     },
-    "699": {
+    "642": {
       "op": "bz _get_principal_if_body@2",
       "stack_out": [
         "length#0"
       ]
     },
-    "702": {
+    "645": {
       "op": "frame_dig 0",
       "stack_out": [
         "length#0",
         "length#0"
       ]
     },
-    "704": {
+    "647": {
       "op": "bnz _get_principal_after_if_else@3",
       "stack_out": [
         "length#0"
       ]
     },
-    "707": {
+    "650": {
       "block": "_get_principal_if_body@2",
       "stack_in": [
         "length#0"
@@ -4181,7 +4211,7 @@
         "0"
       ]
     },
-    "708": {
+    "651": {
       "op": "pushbytes 0x",
       "defined_out": [
         "0",
@@ -4193,14 +4223,14 @@
         "0x"
       ]
     },
-    "710": {
+    "653": {
       "op": "uncover 2"
     },
-    "712": {
+    "655": {
       "retsub": true,
       "op": "retsub"
     },
-    "713": {
+    "656": {
       "block": "_get_principal_after_if_else@3",
       "stack_in": [
         "length#0"
@@ -4214,7 +4244,7 @@
         "box_name#0 (copy)"
       ]
     },
-    "715": {
+    "658": {
       "op": "box_get",
       "defined_out": [
         "data#0",
@@ -4226,14 +4256,14 @@
         "got#0"
       ]
     },
-    "716": {
+    "659": {
       "op": "pop",
       "stack_out": [
         "length#0",
         "data#0"
       ]
     },
-    "717": {
+    "660": {
       "op": "dup",
       "defined_out": [
         "data#0",
@@ -4245,7 +4275,7 @@
         "data#0 (copy)"
       ]
     },
-    "718": {
+    "661": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -4259,7 +4289,7 @@
         "0"
       ]
     },
-    "719": {
+    "662": {
       "op": "extract_uint64",
       "defined_out": [
         "data#0",
@@ -4271,7 +4301,7 @@
         "principal#0"
       ]
     },
-    "720": {
+    "663": {
       "op": "swap",
       "stack_out": [
         "length#0",
@@ -4279,10 +4309,10 @@
         "data#0"
       ]
     },
-    "721": {
+    "664": {
       "op": "uncover 2"
     },
-    "723": {
+    "666": {
       "retsub": true,
       "op": "retsub"
     }

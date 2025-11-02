@@ -21,12 +21,11 @@ main:
 main_after_if_else@2:
     // smart_contracts/tawf_sharia/contract.py:5
     // class tawf_sharia(ARC4Contract):
+    txn NumAppArgs
+    bz main___algopy_default_create@15
     txn OnCompletion
     !
     assert // OnCompletion must be NoOp
-    pushbytes 0xfcadc25c // method "create_application()string"
-    txna ApplicationArgs 0
-    match main_create_application_route@4
     txn ApplicationID
     assert
     pushbytess 0x0848f029 0x546ee180 0xb554e360 0xce0a1197 0xe7d1c635 0x45f0df76 // method "lease_validation_rights(pay)string", method "claim_ujrah()string", method "terminate_lease(uint64)string", method "get_my_ijarah_info()(uint64,uint64,uint64)", method "check_lessor_info(address)(uint64,uint64)", method "total_contract_balance()uint64"
@@ -34,19 +33,20 @@ main_after_if_else@2:
     match lease_validation_rights claim_ujrah terminate_lease get_my_ijarah_info check_lessor_info total_contract_balance
     err
 
-main_create_application_route@4:
-    // smart_contracts/tawf_sharia/contract.py:10-11
-    // # === Creation ===
-    // @abimethod(allow_actions=["NoOp"], create="allow")
-    pushbytes 0x151f7c7500305368617269616820496a61726168205374616b696e6720436f6e74726163742043726561746564202833252041505229
-    log
+main___algopy_default_create@15:
+    txn OnCompletion
+    !
+    txn ApplicationID
+    !
+    &&
+    assert // OnCompletion must be NoOp && can only call when creating
     intc_0 // 1
     return
 
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia.lease_validation_rights[routing]() -> void:
 lease_validation_rights:
-    // smart_contracts/tawf_sharia/contract.py:15-16
+    // smart_contracts/tawf_sharia/contract.py:10-11
     // # === Lease / Deposit ===
     // @abimethod()
     txn GroupIndex
@@ -57,49 +57,49 @@ lease_validation_rights:
     intc_0 // pay
     ==
     assert // transaction type is pay
-    // smart_contracts/tawf_sharia/contract.py:18
+    // smart_contracts/tawf_sharia/contract.py:13
     // assert payment.receiver == Global.current_application_address, "Invalid receiver"
     dup
     gtxns Receiver
     global CurrentApplicationAddress
     ==
     assert // Invalid receiver
-    // smart_contracts/tawf_sharia/contract.py:19
+    // smart_contracts/tawf_sharia/contract.py:14
     // assert payment.amount >= 1_000_000, "Min 1 ALGO"
     gtxns Amount
     dup
     pushint 1000000 // 1000000
     >=
     assert // Min 1 ALGO
-    // smart_contracts/tawf_sharia/contract.py:21
+    // smart_contracts/tawf_sharia/contract.py:16
     // lessor = Txn.sender
     txn Sender
-    // smart_contracts/tawf_sharia/contract.py:22
+    // smart_contracts/tawf_sharia/contract.py:17
     // now = Global.latest_timestamp
     global LatestTimestamp
-    // smart_contracts/tawf_sharia/contract.py:23
+    // smart_contracts/tawf_sharia/contract.py:18
     // box_name = Bytes(b"ijarah_") + lessor.bytes
     bytec_1 // 0x696a617261685f
-    // smart_contracts/tawf_sharia/contract.py:21
+    // smart_contracts/tawf_sharia/contract.py:16
     // lessor = Txn.sender
     txn Sender
-    // smart_contracts/tawf_sharia/contract.py:23
+    // smart_contracts/tawf_sharia/contract.py:18
     // box_name = Bytes(b"ijarah_") + lessor.bytes
     concat
     dupn 2
-    // smart_contracts/tawf_sharia/contract.py:25
+    // smart_contracts/tawf_sharia/contract.py:20
     // principal, dummy_data = self._get_principal(box_name)
     callsub _get_principal
     pop
     swap
-    // smart_contracts/tawf_sharia/contract.py:26
+    // smart_contracts/tawf_sharia/contract.py:21
     // unclaimed = self._calculate_ujrah(box_name)
     callsub _calculate_ujrah
     dup
-    // smart_contracts/tawf_sharia/contract.py:28
+    // smart_contracts/tawf_sharia/contract.py:23
     // if unclaimed > UInt64(0):
     bz lease_validation_rights_after_if_else@4
-    // smart_contracts/tawf_sharia/contract.py:29
+    // smart_contracts/tawf_sharia/contract.py:24
     // itxn.Payment(receiver=lessor, amount=unclaimed, fee=UInt64(0)).submit()
     itxn_begin
     dup
@@ -113,12 +113,12 @@ lease_validation_rights:
     itxn_submit
 
 lease_validation_rights_after_if_else@4:
-    // smart_contracts/tawf_sharia/contract.py:31
+    // smart_contracts/tawf_sharia/contract.py:26
     // new_principal = principal + payment.amount
     dig 1
     dig 6
     +
-    // smart_contracts/tawf_sharia/contract.py:32
+    // smart_contracts/tawf_sharia/contract.py:27
     // op.Box.put(box_name, op.itob(new_principal) + op.itob(now) + op.itob(now))
     itob
     dig 4
@@ -130,12 +130,12 @@ lease_validation_rights_after_if_else@4:
     dig 4
     swap
     box_put
-    // smart_contracts/tawf_sharia/contract.py:34
+    // smart_contracts/tawf_sharia/contract.py:29
     // return String("Lease started! Amount: ") + String.from_bytes(op.itob(new_principal))
     pushbytes "Lease started! Amount: "
     swap
     concat
-    // smart_contracts/tawf_sharia/contract.py:15-16
+    // smart_contracts/tawf_sharia/contract.py:10-11
     // # === Lease / Deposit ===
     // @abimethod()
     dup
@@ -154,40 +154,40 @@ lease_validation_rights_after_if_else@4:
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia.claim_ujrah[routing]() -> void:
 claim_ujrah:
-    // smart_contracts/tawf_sharia/contract.py:39
+    // smart_contracts/tawf_sharia/contract.py:34
     // claimer = Txn.sender
     txn Sender
-    // smart_contracts/tawf_sharia/contract.py:40
+    // smart_contracts/tawf_sharia/contract.py:35
     // box_name = Bytes(b"ijarah_") + claimer.bytes
     bytec_1 // 0x696a617261685f
-    // smart_contracts/tawf_sharia/contract.py:39
+    // smart_contracts/tawf_sharia/contract.py:34
     // claimer = Txn.sender
     txn Sender
-    // smart_contracts/tawf_sharia/contract.py:40
+    // smart_contracts/tawf_sharia/contract.py:35
     // box_name = Bytes(b"ijarah_") + claimer.bytes
     concat
     dupn 2
-    // smart_contracts/tawf_sharia/contract.py:42
+    // smart_contracts/tawf_sharia/contract.py:37
     // ujrah = self._calculate_ujrah(box_name)
     callsub _calculate_ujrah
     dup
     cover 2
-    // smart_contracts/tawf_sharia/contract.py:43
+    // smart_contracts/tawf_sharia/contract.py:38
     // assert ujrah > UInt64(0), "No ujrah yet"
     assert // No ujrah yet
-    // smart_contracts/tawf_sharia/contract.py:127
+    // smart_contracts/tawf_sharia/contract.py:122
     // principal, data = self._get_principal(box_name)
     callsub _get_principal
     swap
     dup
-    // smart_contracts/tawf_sharia/contract.py:128
+    // smart_contracts/tawf_sharia/contract.py:123
     // if principal == UInt64(0):
     bz claim_ujrah_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia._update_box_time@4
-    // smart_contracts/tawf_sharia/contract.py:130
+    // smart_contracts/tawf_sharia/contract.py:125
     // start = op.btoi(op.extract(data, 8, 8))
     dig 1
     extract 8 8
-    // smart_contracts/tawf_sharia/contract.py:131
+    // smart_contracts/tawf_sharia/contract.py:126
     // op.Box.put(box_name, op.itob(principal) + op.itob(start) + op.itob(Global.latest_timestamp))
     dig 1
     itob
@@ -201,7 +201,7 @@ claim_ujrah:
     box_put
 
 claim_ujrah_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia._update_box_time@4:
-    // smart_contracts/tawf_sharia/contract.py:46
+    // smart_contracts/tawf_sharia/contract.py:41
     // itxn.Payment(receiver=claimer, amount=ujrah, fee=UInt64(0)).submit()
     itxn_begin
     dig 2
@@ -214,13 +214,13 @@ claim_ujrah_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia._upda
     intc_1 // 0
     itxn_field Fee
     itxn_submit
-    // smart_contracts/tawf_sharia/contract.py:48
+    // smart_contracts/tawf_sharia/contract.py:43
     // return String("Ujrah claimed: ") + String.from_bytes(op.itob(ujrah))
     itob
     pushbytes "Ujrah claimed: "
     swap
     concat
-    // smart_contracts/tawf_sharia/contract.py:36-37
+    // smart_contracts/tawf_sharia/contract.py:31-32
     // # === Claim profit (ujrah) ===
     // @abimethod()
     dup
@@ -239,7 +239,7 @@ claim_ujrah_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia._upda
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia.terminate_lease[routing]() -> void:
 terminate_lease:
-    // smart_contracts/tawf_sharia/contract.py:50-51
+    // smart_contracts/tawf_sharia/contract.py:45-46
     // # === Withdraw principal (partial/full) ===
     // @abimethod()
     txna ApplicationArgs 1
@@ -249,62 +249,62 @@ terminate_lease:
     ==
     assert // invalid number of bytes for arc4.uint64
     btoi
-    // smart_contracts/tawf_sharia/contract.py:53
+    // smart_contracts/tawf_sharia/contract.py:48
     // user = Txn.sender
     txn Sender
     dup
     cover 2
-    // smart_contracts/tawf_sharia/contract.py:54
+    // smart_contracts/tawf_sharia/contract.py:49
     // box_name = Bytes(b"ijarah_") + user.bytes
     bytec_1 // 0x696a617261685f
     swap
     concat
     dup
     cover 2
-    // smart_contracts/tawf_sharia/contract.py:55
+    // smart_contracts/tawf_sharia/contract.py:50
     // assert amount > UInt64(0), "Invalid amount"
     dig 1
     assert // Invalid amount
-    // smart_contracts/tawf_sharia/contract.py:57
+    // smart_contracts/tawf_sharia/contract.py:52
     // principal, box_data = self._get_principal(box_name)
     dup
     callsub _get_principal
     cover 4
-    // smart_contracts/tawf_sharia/contract.py:58
+    // smart_contracts/tawf_sharia/contract.py:53
     // assert amount <= principal, "Exceeds balance"
     dig 2
     dig 1
     <=
     assert // Exceeds balance
-    // smart_contracts/tawf_sharia/contract.py:60
+    // smart_contracts/tawf_sharia/contract.py:55
     // ujrah = self._calculate_ujrah(box_name)
     swap
     callsub _calculate_ujrah
-    // smart_contracts/tawf_sharia/contract.py:61
+    // smart_contracts/tawf_sharia/contract.py:56
     // total = amount + ujrah
     dig 2
     +
     cover 3
-    // smart_contracts/tawf_sharia/contract.py:63
+    // smart_contracts/tawf_sharia/contract.py:58
     // new_principal = principal - amount
     swap
     -
     dup
     cover 2
-    // smart_contracts/tawf_sharia/contract.py:64
+    // smart_contracts/tawf_sharia/contract.py:59
     // now = Global.latest_timestamp
     global LatestTimestamp
     cover 2
-    // smart_contracts/tawf_sharia/contract.py:66
+    // smart_contracts/tawf_sharia/contract.py:61
     // if new_principal == UInt64(0):
     bnz terminate_lease_else_body@3
-    // smart_contracts/tawf_sharia/contract.py:67
+    // smart_contracts/tawf_sharia/contract.py:62
     // op.Box.delete(box_name)
     box_del
     pop
 
 terminate_lease_after_if_else@4:
-    // smart_contracts/tawf_sharia/contract.py:72
+    // smart_contracts/tawf_sharia/contract.py:67
     // itxn.Payment(receiver=user, amount=total, fee=UInt64(0)).submit()
     itxn_begin
     dig 2
@@ -317,7 +317,7 @@ terminate_lease_after_if_else@4:
     intc_1 // 0
     itxn_field Fee
     itxn_submit
-    // smart_contracts/tawf_sharia/contract.py:74
+    // smart_contracts/tawf_sharia/contract.py:69
     // return String("Withdrawn ") + String.from_bytes(op.itob(total)) + String(" microALGO")
     itob
     pushbytes "Withdrawn "
@@ -325,7 +325,7 @@ terminate_lease_after_if_else@4:
     concat
     pushbytes " microALGO"
     concat
-    // smart_contracts/tawf_sharia/contract.py:50-51
+    // smart_contracts/tawf_sharia/contract.py:45-46
     // # === Withdraw principal (partial/full) ===
     // @abimethod()
     dup
@@ -342,11 +342,11 @@ terminate_lease_after_if_else@4:
     return
 
 terminate_lease_else_body@3:
-    // smart_contracts/tawf_sharia/contract.py:69
+    // smart_contracts/tawf_sharia/contract.py:64
     // rental_start = op.btoi(op.extract(box_data, 8, 8))
     dig 4
     extract 8 8
-    // smart_contracts/tawf_sharia/contract.py:70
+    // smart_contracts/tawf_sharia/contract.py:65
     // op.Box.put(box_name, op.itob(new_principal) + op.itob(rental_start) + op.itob(now))
     dig 3
     itob
@@ -361,31 +361,31 @@ terminate_lease_else_body@3:
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia.get_my_ijarah_info[routing]() -> void:
 get_my_ijarah_info:
-    // smart_contracts/tawf_sharia/contract.py:80
+    // smart_contracts/tawf_sharia/contract.py:75
     // box_name = Bytes(b"ijarah_") + caller.bytes
     bytec_1 // 0x696a617261685f
-    // smart_contracts/tawf_sharia/contract.py:79
+    // smart_contracts/tawf_sharia/contract.py:74
     // caller = Txn.sender
     txn Sender
-    // smart_contracts/tawf_sharia/contract.py:80
+    // smart_contracts/tawf_sharia/contract.py:75
     // box_name = Bytes(b"ijarah_") + caller.bytes
     concat
     dup
-    // smart_contracts/tawf_sharia/contract.py:81
+    // smart_contracts/tawf_sharia/contract.py:76
     // principal, box_data = self._get_principal(box_name)
     callsub _get_principal
     swap
     dup
-    // smart_contracts/tawf_sharia/contract.py:83
+    // smart_contracts/tawf_sharia/contract.py:78
     // if principal == UInt64(0):
     bnz get_my_ijarah_info_after_if_else@3
-    // smart_contracts/tawf_sharia/contract.py:84
+    // smart_contracts/tawf_sharia/contract.py:79
     // return (UInt64(0), UInt64(0), UInt64(0))
     intc_1 // 0
     dupn 2
 
 get_my_ijarah_info_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia.get_my_ijarah_info@4:
-    // smart_contracts/tawf_sharia/contract.py:76-77
+    // smart_contracts/tawf_sharia/contract.py:71-72
     // # === View own info ===
     // @abimethod()
     uncover 2
@@ -404,23 +404,23 @@ get_my_ijarah_info_after_inlined_smart_contracts.tawf_sharia.contract.tawf_shari
     return
 
 get_my_ijarah_info_after_if_else@3:
-    // smart_contracts/tawf_sharia/contract.py:86
+    // smart_contracts/tawf_sharia/contract.py:81
     // ujrah = self._calculate_ujrah(box_name)
     dig 2
     callsub _calculate_ujrah
-    // smart_contracts/tawf_sharia/contract.py:87
+    // smart_contracts/tawf_sharia/contract.py:82
     // start = op.btoi(op.extract(box_data, 8, 8))
     dig 2
     intc_2 // 8
     extract_uint64
-    // smart_contracts/tawf_sharia/contract.py:88
+    // smart_contracts/tawf_sharia/contract.py:83
     // duration = Global.latest_timestamp - start
     global LatestTimestamp
     swap
     -
     dig 2
     cover 2
-    // smart_contracts/tawf_sharia/contract.py:76-77
+    // smart_contracts/tawf_sharia/contract.py:71-72
     // # === View own info ===
     // @abimethod()
     b get_my_ijarah_info_after_inlined_smart_contracts.tawf_sharia.contract.tawf_sharia.get_my_ijarah_info@4
@@ -428,7 +428,7 @@ get_my_ijarah_info_after_if_else@3:
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia.check_lessor_info[routing]() -> void:
 check_lessor_info:
-    // smart_contracts/tawf_sharia/contract.py:92-93
+    // smart_contracts/tawf_sharia/contract.py:87-88
     // # === View others ===
     // @abimethod()
     txna ApplicationArgs 1
@@ -437,21 +437,21 @@ check_lessor_info:
     pushint 32 // 32
     ==
     assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
-    // smart_contracts/tawf_sharia/contract.py:95
+    // smart_contracts/tawf_sharia/contract.py:90
     // box_name = Bytes(b"ijarah_") + lessor.bytes
     bytec_1 // 0x696a617261685f
     swap
     concat
-    // smart_contracts/tawf_sharia/contract.py:96
+    // smart_contracts/tawf_sharia/contract.py:91
     // principal, dummy_data = self._get_principal(box_name)
     dup
     callsub _get_principal
     pop
     swap
-    // smart_contracts/tawf_sharia/contract.py:97
+    // smart_contracts/tawf_sharia/contract.py:92
     // return (principal, self._calculate_ujrah(box_name))
     callsub _calculate_ujrah
-    // smart_contracts/tawf_sharia/contract.py:92-93
+    // smart_contracts/tawf_sharia/contract.py:87-88
     // # === View others ===
     // @abimethod()
     swap
@@ -469,11 +469,11 @@ check_lessor_info:
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia.total_contract_balance[routing]() -> void:
 total_contract_balance:
-    // smart_contracts/tawf_sharia/contract.py:102
+    // smart_contracts/tawf_sharia/contract.py:97
     // return op.balance(Global.current_application_address)
     global CurrentApplicationAddress
     balance
-    // smart_contracts/tawf_sharia/contract.py:99-100
+    // smart_contracts/tawf_sharia/contract.py:94-95
     // # === View total balance ===
     // @abimethod()
     itob
@@ -487,38 +487,38 @@ total_contract_balance:
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia._calculate_ujrah(box_name: bytes) -> uint64:
 _calculate_ujrah:
-    // smart_contracts/tawf_sharia/contract.py:104-106
+    // smart_contracts/tawf_sharia/contract.py:99-101
     // # === Internal helpers ===
     // @subroutine
     // def _calculate_ujrah(self, box_name: Bytes) -> UInt64:
     proto 1 1
-    // smart_contracts/tawf_sharia/contract.py:107
+    // smart_contracts/tawf_sharia/contract.py:102
     // principal, box_data = self._get_principal(box_name)
     frame_dig -1
     callsub _get_principal
     swap
     dup
-    // smart_contracts/tawf_sharia/contract.py:108
+    // smart_contracts/tawf_sharia/contract.py:103
     // if principal == UInt64(0):
     bnz _calculate_ujrah_after_if_else@2
-    // smart_contracts/tawf_sharia/contract.py:109
+    // smart_contracts/tawf_sharia/contract.py:104
     // return UInt64(0)
     intc_1 // 0
     frame_bury 0
     retsub
 
 _calculate_ujrah_after_if_else@2:
-    // smart_contracts/tawf_sharia/contract.py:111
+    // smart_contracts/tawf_sharia/contract.py:106
     // last_claim = op.btoi(op.extract(box_data, 16, 8))
     frame_dig 0
     pushint 16 // 16
     extract_uint64
-    // smart_contracts/tawf_sharia/contract.py:112
+    // smart_contracts/tawf_sharia/contract.py:107
     // elapsed = Global.latest_timestamp - last_claim
     global LatestTimestamp
     swap
     -
-    // smart_contracts/tawf_sharia/contract.py:114
+    // smart_contracts/tawf_sharia/contract.py:109
     // return (principal * elapsed * self.ANNUAL_UJRAH_RATE_BP) // (self.SECONDS_PER_YEAR * UInt64(10_000))
     frame_dig 1
     *
@@ -540,22 +540,22 @@ _calculate_ujrah_after_if_else@2:
 
 // smart_contracts.tawf_sharia.contract.tawf_sharia._get_principal(box_name: bytes) -> uint64, bytes:
 _get_principal:
-    // smart_contracts/tawf_sharia/contract.py:116-117
+    // smart_contracts/tawf_sharia/contract.py:111-112
     // @subroutine
     // def _get_principal(self, box_name: Bytes) -> tuple[UInt64, Bytes]:
     proto 1 2
-    // smart_contracts/tawf_sharia/contract.py:118
+    // smart_contracts/tawf_sharia/contract.py:113
     // length, exists = op.Box.length(box_name)
     frame_dig -1
     box_len
-    // smart_contracts/tawf_sharia/contract.py:119
+    // smart_contracts/tawf_sharia/contract.py:114
     // if not exists or length == UInt64(0):
     bz _get_principal_if_body@2
     frame_dig 0
     bnz _get_principal_after_if_else@3
 
 _get_principal_if_body@2:
-    // smart_contracts/tawf_sharia/contract.py:120
+    // smart_contracts/tawf_sharia/contract.py:115
     // return (UInt64(0), Bytes(b""))
     intc_1 // 0
     pushbytes 0x
@@ -563,17 +563,17 @@ _get_principal_if_body@2:
     retsub
 
 _get_principal_after_if_else@3:
-    // smart_contracts/tawf_sharia/contract.py:121
+    // smart_contracts/tawf_sharia/contract.py:116
     // data, got = op.Box.get(box_name)
     frame_dig -1
     box_get
     pop
-    // smart_contracts/tawf_sharia/contract.py:122
+    // smart_contracts/tawf_sharia/contract.py:117
     // principal = op.btoi(op.extract(data, 0, 8))
     dup
     intc_1 // 0
     extract_uint64
-    // smart_contracts/tawf_sharia/contract.py:123
+    // smart_contracts/tawf_sharia/contract.py:118
     // return (principal, data)
     swap
     uncover 2

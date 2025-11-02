@@ -1,4 +1,4 @@
-from algopy import ARC4Contract, String, UInt64, Global, Txn, gtxn, itxn, Bytes, op, subroutine
+from algopy import ARC4Contract, String, UInt64, Global, Txn, gtxn, itxn, Bytes, op, subroutine, arc4
 from algopy.arc4 import abimethod, Address
 
 
@@ -6,11 +6,6 @@ class tawf_sharia(ARC4Contract):
     def __init__(self) -> None:
         self.ANNUAL_UJRAH_RATE_BP = UInt64(300)      # 3% annual
         self.SECONDS_PER_YEAR = UInt64(31_557_600)   # 365.25 days
-
-    # === Creation ===
-    @abimethod(allow_actions=["NoOp"], create="allow")
-    def create_application(self) -> String:
-        return String("Shariah Ijarah Staking Contract Created (3% APR)")
 
     # === Lease / Deposit ===
     @abimethod()
