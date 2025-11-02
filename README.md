@@ -91,16 +91,16 @@ Our growth combines **trust-based partnerships** with **community-driven adoptio
 
 ---
 
-## 🛠️ Getting Started with `tawf_sharia`
+## 🗂️ Project Structure
 
-This full-stack project is generated using **AlgoKit**.
+- **Smart Contracts:** `tawf_sharia-contracts`  
+- **Frontend:** `tawf_sharia-frontend`  
 
-### Initial Setup
+> Frontend clients are automatically generated from smart contract artifacts and are available in `frontend/src/contracts`.
 
-1. Clone this repository to your local machine.
-2. Ensure **Docker** is installed and operational.
-3. Install **AlgoKit** following [the guide](https://developer.algorand.org/docs/get-started/algokit/).
-4. Run:
+---
 
-```bash
-algokit project bootstrap all
+### ✨ Join Us in Building the Future of Halal DeFi
+> Bringing trust, ethics, and inclusivity to the next billion Web3 users — now powered by **Algorand** and the `tawf_sharia` protocol.
+
+
