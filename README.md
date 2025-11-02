@@ -1,45 +1,106 @@
-# tawf_sharia
+# Tawf Sharia
 
-This starter full stack project has been generated using AlgoKit. See below for default getting started instructions.
+**Halal Staking for a Trustworthy DeFi Future on Algorand**
 
-## Setup
+> The first Sharia-audited staking protocol empowering Muslim investors to participate in DeFi safely, ethically, and transparently—now on Algorand using `tawf_sharia`.
 
-### Initial setup
+---
+
+## 🌊 Deployment
+
+🟢 **Tawf Sharia is deployed on the Algorand blockchain**, chosen for its **security, scalability, and low-fee architecture**.  
+All staking logic, auditing, and verification are handled **natively via Algorand smart contracts** and the `tawf_sharia` client.
+
+---
+
+## 🧩 Problem It Solves
+
+Tawf Sharia addresses the long-standing challenge of **trust and accessibility in DeFi for Muslim investors**.  
+Despite the **$3 trillion Islamic finance market**, no existing staking protocol offers **verifiable on-chain Sharia compliance**.
+
+This gap has caused:
+
+- **Regulatory and religious uncertainty**, particularly in Indonesia and other Muslim-majority nations.  
+  _“Crypto market is legal, but not halal yet.”_
+- **Financial exclusion** of a massive potential user base due to lack of trust.
+
+**Tawf Sharia** introduces a **Sharia-certified staking model** using the *Ijarah (rental) contract*, allowing users to:
+
+- Participate in DeFi **ethically and safely**.  
+- Earn **stable and halal returns** through a transparent and auditable mechanism.  
+- Build **confidence in blockchain** without compromising religious principles.
+
+---
+
+## ⚙️ Challenges Faced
+
+Building a Sharia-compliant DeFi protocol on Algorand involved **technical and philosophical challenges**.
+
+### Key Hurdles
+
+- **Modeling the Ijarah contract on-chain** – Translating rental-based profit-sharing logic into Algorand smart contracts required custom structures for Ujrah (rental fees) and validation rights.
+- **Balancing decentralization with compliance** – Contracts had to allow external Sharia audits without breaking trustlessness.
+- **Designing transparent on-chain audit verification** – Ensuring audit data is readable, verifiable, and stored securely on Algorand.
+
+### How We Overcame Them
+
+- Consulted **Islamic finance experts** and referenced **MUI Fatwa No.7/2021**.
+- Built a **modular architecture** (Python + AlgoKit + React) separating staking logic, audits, and reporting.
+- Leveraged **Algorand smart contract accounts and boxes** to ensure secure, auditable transaction flows.
+
+---
+
+## 💎 Unique Value Proposition
+
+Tawf Sharia is the **first Sharia-audited staking protocol on Algorand**, offering **halal passive income** through fixed, transparent Ujrah rewards.  
+Unlike typical staking protocols, it’s **compliance-first** — featuring **on-chain audit proofs**, **real Sharia certification**, and **Sukuk-inspired stability**, bringing **trust and inclusivity** to the global DeFi ecosystem.
+
+---
+
+## 🎯 Target Customer
+
+Our core users are **Muslim crypto investors** who want to engage with Web3 **without compromising religious values**.
+
+**Target Segments:**
+
+- Retail investors (18–40 y.o.) in **Indonesia, Malaysia, UAE, and Turkey**.  
+- **Faith-based investment communities** seeking transparent digital assets.  
+- **Islamic financial institutions** exploring blockchain-based halal yield models.
+
+---
+
+## ⚔️ Competitors & Differentiation
+
+| Competitor | Focus | Limitation | Tawf Sharia Advantage |
+|------------|-------|------------|----------------------|
+| Lido / Rocket Pool | ETH staking | No Sharia compliance or transparency | Certified halal staking, audited on-chain |
+| HAQQ Network | Islamic blockchain (Layer-1) | Not a staking protocol | Protocol-agnostic, plug-and-play staking layer on Algorand |
+
+**Tawf Sharia** merges **DeFi technology** with **Islamic finance ethics**, backed by Algorand smart contracts and verifiable on-chain auditing via `tawf_sharia`.
+
+---
+
+## 🚀 Distribution Strategy
+
+Our growth combines **trust-based partnerships** with **community-driven adoption**:
+
+- **Institutional Partnerships** — Collaborate with Sharia councils & Islamic finance boards for certification and co-branding.  
+- **Community Evangelism** — Grow through Muslim Web3 communities (X, Telegram, local crypto events).  
+- **DeFi & Web3 Collaborations** — Offer *“Halal Staking Mode”* to existing protocols.  
+- **Content-Driven Marketing** — Publish transparent Sharia audit reports on-chain and across platforms to build credibility.
+
+---
+
+## 🛠️ Getting Started with `tawf_sharia`
+
+This full-stack project is generated using **AlgoKit**.
+
+### Initial Setup
+
 1. Clone this repository to your local machine.
-2. Ensure [Docker](https://www.docker.com/) is installed and operational. Then, install `AlgoKit` following this [guide](https://github.com/algorandfoundation/algokit-cli#install).
-3. Run `algokit project bootstrap all` in the project directory. This command sets up your environment by installing necessary dependencies, setting up a Python virtual environment, and preparing your `.env` file.
-4. In the case of a smart contract project, execute `algokit generate env-file -a target_network localnet` from the `tawf_sharia-contracts` directory to create a `.env.localnet` file with default configuration for `localnet`.
-5. To build your project, execute `algokit project run build`. This compiles your project and prepares it for running.
-6. For project-specific instructions, refer to the READMEs of the child projects:
-   - Smart Contracts: [tawf_sharia-contracts](projects/tawf_sharia-contracts/README.md)
-   - Frontend Application: [tawf_sharia-frontend](projects/tawf_sharia-frontend/README.md)
+2. Ensure **Docker** is installed and operational.
+3. Install **AlgoKit** following [the guide](https://developer.algorand.org/docs/get-started/algokit/).
+4. Run:
 
-> This project is structured as a monorepo, refer to the [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/project/run.md) to learn more about custom command orchestration via `algokit project run`.
-
-### Subsequently
-
-1. If you update to the latest source code and there are new dependencies, you will need to run `algokit project bootstrap all` again.
-2. Follow step 3 above.
-
-## Tools
-
-This project makes use of Python and React to build Algorand smart contracts and to provide a base project configuration to develop frontends for your Algorand dApps and interactions with smart contracts. The following tools are in use:
-
-- Algorand, AlgoKit, and AlgoKit Utils
-- Python dependencies including Poetry, Black, Ruff or Flake8, mypy, pytest, and pip-audit
-- React and related dependencies including AlgoKit Utils, Tailwind CSS, daisyUI, use-wallet, npm, jest, playwright, Prettier, ESLint, and Github Actions workflows for build validation
-
-### VS Code
-
-It has also been configured to have a productive dev experience out of the box in [VS Code](https://code.visualstudio.com/), see the [backend .vscode](./backend/.vscode) and [frontend .vscode](./frontend/.vscode) folders for more details.
-
-## Integrating with smart contracts and application clients
-
-Refer to the [tawf_sharia-contracts](projects/tawf_sharia-contracts/README.md) folder for overview of working with smart contracts, [projects/tawf_sharia-frontend](projects/tawf_sharia-frontend/README.md) for overview of the React project and the [projects/tawf_sharia-frontend/contracts](projects/tawf_sharia-frontend/src/contracts/README.md) folder for README on adding new smart contracts from backend as application clients on your frontend. The templates provided in these folders will help you get started.
-When you compile and generate smart contract artifacts, your frontend component will automatically generate typescript application clients from smart contract artifacts and move them to `frontend/src/contracts` folder, see [`generate:app-clients` in package.json](projects/tawf_sharia-frontend/package.json). Afterwards, you are free to import and use them in your frontend application.
-
-The frontend starter also provides an example of interactions with your TawfShariaClient in [`AppCalls.tsx`](projects/tawf_sharia-frontend/src/components/AppCalls.tsx) component by default.
-
-## Next Steps
-
-You can take this project and customize it to build your own decentralized applications on Algorand. Make sure to understand how to use AlgoKit and how to write smart contracts for Algorand before you start.
+```bash
+algokit project bootstrap all
