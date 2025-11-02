@@ -11,6 +11,8 @@
 🟢 **Tawf Sharia is deployed on the Algorand blockchain**, chosen for its **security, scalability, and low-fee architecture**.  
 All staking logic, auditing, and verification are handled **natively via Algorand smart contracts** and the `tawf_sharia` client.
 
+Link to deployment: https://lora.algokit.io/testnet/application/749014050
+
 ---
 
 ## 🧩 Problem It Solves
