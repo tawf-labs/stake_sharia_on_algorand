@@ -1,7 +1,7 @@
 import { useWallet } from '@txnlab/use-wallet-react'
 import { useSnackbar } from 'notistack'
 import { useState } from 'react'
-import { TawfShariaFactory } from '../contracts/TawfSharia'
+import { TawfShariaFactory } from '../contracts/tawf_sharia'
 import { OnSchemaBreak, OnUpdate } from '@algorandfoundation/algokit-utils/types/app'
 import { getAlgodConfigFromViteEnvironment, getIndexerConfigFromViteEnvironment } from '../utils/network/getAlgoClientConfigs'
 import { AlgorandClient } from '@algorandfoundation/algokit-utils'
@@ -13,7 +13,6 @@ interface AppCallsInterface {
 
 const AppCalls = ({ openModal, setModalState }: AppCallsInterface) => {
   const [loading, setLoading] = useState<boolean>(false)
-  const [contractInput, setContractInput] = useState<string>('')
   const { enqueueSnackbar } = useSnackbar()
   const { transactionSigner, activeAddress } = useWallet()
 
@@ -27,67 +26,55 @@ const AppCalls = ({ openModal, setModalState }: AppCallsInterface) => {
 
   const sendAppCall = async () => {
     setLoading(true)
+    try {
+      // NOTE: In production, deployment is typically done on the backend.
+      const factory = new TawfShariaFactory({
+        defaultSender: activeAddress ?? undefined,
+        algorand,
+      })
 
-    // Please note, in typical production scenarios,
-    // you wouldn't want to use deploy directly from your frontend.
-    // Instead, you would deploy your contract on your backend and reference it by id.
-    // Given the simplicity of the starter contract, we are deploying it on the frontend
-    // for demonstration purposes.
-    const factory = new TawfShariaFactory({
-      defaultSender: activeAddress ?? undefined,
-      algorand,
-    })
-    const deployResult = await factory
-      .deploy({
+      const deployResult = await factory.deploy({
         onSchemaBreak: OnSchemaBreak.AppendApp,
         onUpdate: OnUpdate.AppendApp,
       })
-      .catch((e: Error) => {
-        enqueueSnackbar(`Error deploying the contract: ${e.message}`, { variant: 'error' })
+
+      if (!deployResult) {
+        enqueueSnackbar('Deployment failed', { variant: 'error' })
         setLoading(false)
-        return undefined
-      })
+        return
+      }
 
-    if (!deployResult) {
-      return
-    }
+      const { appClient } = deployResult
 
-    const { appClient } = deployResult
+      // Example: placeholder for any function call you add later
+      // await appClient.send.someFunctionName({ args: { ... } })
 
-    const response = await appClient.send.hello({ args: { name: contractInput } }).catch((e: Error) => {
-      enqueueSnackbar(`Error calling the contract: ${e.message}`, { variant: 'error' })
+      enqueueSnackbar('Contract deployed successfully!', { variant: 'success' })
+    } catch (e: any) {
+      enqueueSnackbar(`Error: ${e.message}`, { variant: 'error' })
+    } finally {
       setLoading(false)
-      return undefined
-    })
-
-    if (!response) {
-      return
     }
-
-    enqueueSnackbar(`Response from the contract: ${response.return}`, { variant: 'success' })
-    setLoading(false)
   }
 
   return (
     <dialog id="appcalls_modal" className={`modal ${openModal ? 'modal-open' : ''} bg-slate-200`}>
       <form method="dialog" className="modal-box">
-        <h3 className="font-bold text-lg">Say hello to your Algorand smart contract</h3>
-        <br />
-        <input
-          type="text"
-          placeholder="Provide input to hello function"
-          className="input input-bordered w-full"
-          value={contractInput}
-          onChange={(e) => {
-            setContractInput(e.target.value)
-          }}
-        />
-        <div className="modal-action ">
-          <button className="btn" onClick={() => setModalState(!openModal)}>
+        <h3 className="font-bold text-lg">Deploy your Algorand Smart Contract</h3>
+        <p className="py-2 text-sm text-gray-600">
+          This will deploy your Tawf Sharia contract. You can add function calls later.
+        </p>
+        <div className="modal-action">
+          <button
+            type="button"
+            className="btn"
+            onClick={() => setModalState(!openModal)}
+            disabled={loading}
+          >
             Close
           </button>
-          <button className={`btn`} onClick={sendAppCall}>
-            {loading ? <span className="loading loading-spinner" /> : 'Send application call'}
+          <button type="button" className="btn" onClick={sendAppCall} disabled={loading}>
+            {loading ? <span className="loading loading-spinner" /> : 'Deploy Contract'}
           </button>
         </div>
       </form>
